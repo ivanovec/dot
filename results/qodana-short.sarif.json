@@ -1,0 +1,69 @@
+{
+  "$schema": "https://raw.githubusercontent.com/schemastore/schemastore/master/src/schemas/json/sarif-2.1.0-rtm.5.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "QDJVM",
+          "fullName": "Qodana for JVM",
+          "version": "241.16219.78",
+          "rules": [],
+          "taxa": [],
+          "language": "en-US",
+          "contents": [
+            "localizedData",
+            "nonLocalizedData"
+          ],
+          "isComprehensive": false
+        },
+        "extensions": []
+      },
+      "invocations": [
+        {
+          "startTimeUtc": "2024-04-16T09:30:21.570457129Z",
+          "exitCode": 0,
+          "executionSuccessful": true
+        }
+      ],
+      "language": "en-US",
+      "versionControlProvenance": [
+        {
+          "repositoryUri": "ssh://git@github.com/ivanovec/dot.git",
+          "revisionId": "a00b68a497d160dbcb861300fb0875e367d6963c",
+          "branch": "dot",
+          "properties": {
+            "repoUrl": "",
+            "lastAuthorName": "Ivan Efimov",
+            "vcsType": "Git",
+            "lastAuthorEmail": "ivan.efimov@jetbrains.com"
+          }
+        }
+      ],
+      "results": [],
+      "automationDetails": {
+        "id": "project/qodana/2024-04-16",
+        "guid": "5440d67f-309f-4824-b996-69c2cc4a3004",
+        "properties": {
+          "jobUrl": ""
+        }
+      },
+      "newlineSequences": [
+        "\r\n",
+        "\n"
+      ],
+      "properties": {
+        "qodanaFailureConditions": {
+          "severityThresholds": {
+            "any": 2.0
+          }
+        },
+        "configProfile": "starter",
+        "deviceId": "200820300000000-0c71-ef9c-4252-7584f47bb2fd",
+        "qodanaNewResultSummary": {
+          "total": 0.0
+        }
+      }
+    }
+  ]
+}

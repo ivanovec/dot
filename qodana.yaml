@@ -9,9 +9,8 @@ profile:
   name: qodana.starter
 
 #Enable inspections
-#include:
-#  - name: <SomeEnabledInspectionId>
-
+include:
+  - name: Eslint
 #Disable inspections
 #exclude:
 #  - name: <SomeDisabledInspectionId>
@@ -30,3 +29,4 @@ profile:
 
 #Specify Qodana linter for analysis
 linter: jetbrains/qodana-dotnet:latest
+failThreshold: 2

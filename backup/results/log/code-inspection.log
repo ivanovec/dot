@@ -1,0 +1,6 @@
+[2023-12-05 17:59:34,551]   INFO -    org.jetbrains.analysis.Main:33 - Generating final reports...
+[2023-12-05 17:59:34,552]   INFO -               internal.message:34 - Code Inspection version: 0.10.70
+[2023-12-05 17:59:34,600]   INFO - ana.sarif.CodeInspectionReader:37 - Reading problems and description from sarif: /data/results/qodana.sarif.json
+[2023-12-05 17:59:34,679]   INFO - ana.sarif.CodeInspectionReader:50 - Writing sarif problems
+[2023-12-05 17:59:34,708]   WARN - na.sarif.QodanaReportConverter:115 - Missing description.json file
+[2023-12-05 17:59:34,886]   INFO -    org.jetbrains.analysis.Main:51 - Done

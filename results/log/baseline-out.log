@@ -1,0 +1,32 @@
+
+Qodana - Detailed summary
+Analysis results: 5 problems detected
+By severity: warning - 3, note - 2
+----------------------------------------------------------------------------
+Name                                                Severity  Problems count
+----------------------------------------------------------------------------
+Empty control statement body                         warning               1
+Field is never used                                  warning               1
+Function never returns                               warning               1
+Class is never instantiated: Non-private accessibi      note               1
+lity                                                                        
+Unused parameter: Non-private accessibility             note               1
+----------------------------------------------------------------------------
+
+
+
+Qodana - Detailed summary
+Analysis results: 5 problems detected
+By severity: warning - 3, note - 2
+----------------------------------------------------------------------------
+Name                                                Severity  Problems count
+----------------------------------------------------------------------------
+Empty control statement body                         warning               1
+Field is never used                                  warning               1
+Function never returns                               warning               1
+Class is never instantiated: Non-private accessibi      note               1
+lity                                                                        
+Unused parameter: Non-private accessibility             note               1
+----------------------------------------------------------------------------
+
+

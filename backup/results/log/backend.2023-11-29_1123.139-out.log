@@ -1,0 +1,44 @@
+Rider Entry Point...
+11:23:34.818 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.UI.Application.LogEventListener] and level [INFO]
+
+11:23:34.808 |I| ProcessWatchdog                | WatchParentPid:16:4            | Monitoring parent process PID:16
+11:23:34.838 |V| --LOGLOG:NativeMemoryPool--    | :1                             | New memory block allocated, size: 1,048,576 bytes, total allocated blocks: 0, used: 0
+
+11:23:34.852 |I| --LOGLOG--                     | :1                             | Initializing LogManager with path=/opt/idea/bin/backend-log.xml, subconfiguration=Debug
+
+11:23:34.855 |I| --LOGLOG--                     | :1                             | Listening of folder /opt/idea/bin is DISABLED. Platform: Linux.
+
+11:23:34.858 |I| --LOGLOG--                     | :1                             | Reconfigure logger, ReadBinary=[False], Subconf=[Debug], Xml=/opt/idea/bin/backend-log.xml
+
+JetBrains Rider 2023.3 EAP 9 D 
+Running in .NET Core v7.0.10 ARM64 runtime
+11:23:34.994 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.Util.Console.ConsoleLoggerListener] and level [INFO]
+
+11:23:38.853 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.UI.Application.LogEventListener] and level [INFO]. Filters: <len=1>[BurstFilter[level=ERROR, lastburst=1, rates=0]]
+
+11:23:38.954 |V| --LOGLOG:NativeMemoryPool--    | JetPool(S) #2:15               | New memory block allocated, size: 1,048,576 bytes, total allocated blocks: 1, used: 1
+
+JetBrains Rider 2023.3 EAP 9 D
+Running on ARM64 OS in ARM64 architecture, .NET 7.0.10 under Linux 5.15.49-linuxkit-pr #1 SMP PREEMPT Thu May 25 07:27:39 UTC 2023
+11:23:39.456 |I| --LOGLOG--                     | :1                             | Removed omnipresent logger with type [JetBrains.Util.Console.ConsoleLoggerListener] and level [INFO]
+
+11:23:39.456 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.ReSharperAutomationTools.CommandLine.Common.Console.Util.Logging.ConsoleToolLogger] and level [INFO]
+
+11:23:39.543 |I| --LOGLOG--                     | :1                             | Removed omnipresent logger with type [JetBrains.ReSharperAutomationTools.CommandLine.Common.Console.Util.Logging.ConsoleToolLogger] and level [INFO]
+
+11:23:39.543 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.Util.Console.ConsoleLoggerListener] and level [WARN]. Filters: <len=1>[JetBrains.Rider.Backend.Features.Loggers.RiderStderrThresholdFilter]
+
+11:23:39.543 |I| --LOGLOG--                     | :1                             | Added omnipresent logger with type [JetBrains.Rider.Backend.Features.Loggers.LoggerHost] and level [INFO]
+
+11:23:39.546 |I| --LOGLOG--                     | :1                             | Removed omnipresent logger with type [JetBrains.UI.Application.LogEventListener] and level [INFO]
+
+11:23:43.676 |V| --LOGLOG:NativeMemoryPool--    | .NET ThreadPool Worker:27      | New memory block allocated, size: 1,048,576 bytes, total allocated blocks: 2, used: 1
+
+11:23:44.999 |V| --LOGLOG:UnsafeWriter--        | JetPool(S) #1:14               | Realloc UnsafeWriter, current: 1,048,576 bytes, new: 2,097,152
+
+11:23:46.406 |V| --LOGLOG:UnsafeWriter--        | :1                             | Realloc UnsafeWriter, current: 1,048,576 bytes, new: 2,097,152
+
+11:23:52.373 |I| --LOGLOG--                     | :1                             | Removed omnipresent logger with type [JetBrains.Rider.Backend.Features.Loggers.LoggerHost] and level [INFO]
+
+11:23:52.412 |I| --LOGLOG--                     | :1                             | Removed omnipresent logger with type [JetBrains.Util.Console.ConsoleLoggerListener] and level [WARN]
+

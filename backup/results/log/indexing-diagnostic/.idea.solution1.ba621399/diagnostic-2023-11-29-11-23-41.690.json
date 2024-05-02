@@ -1,0 +1,169 @@
+{
+  "appInfo" : {
+    "build" : "233.12259.111.68",
+    "buildDate" : "2023-11-27T13:41:00Z[UTC]",
+    "productCode" : "QDNET",
+    "generated" : "2023-11-29T11:23:41.690654338Z",
+    "os" : "Linux 5.15.49-linuxkit-pr",
+    "runtime" : "JetBrains s.r.o. 17.0.9 17.0.9+7-b1087.7"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 5762973696,
+    "numberOfProcessors" : 6,
+    "maxNumberOfIndexingThreads" : 5,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "Solution1",
+    "times" : {
+      "scanningIds" : [ 1 ],
+      "contentLoadingVisibleTime" : 1197672,
+      "retrievingChangedDuringIndexingFilesTime" : 20291,
+      "separateApplyingIndexesVisibleTime" : 2889821,
+      "updatingStart" : "2023-11-29T11:23:41.240610171Z",
+      "updatingEnd" : "2023-11-29T11:23:41.326540796Z",
+      "totalWallTimeWithPauses" : 85930334,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "dumbModeStart" : "2023-11-29T11:23:41.240610171Z",
+      "dumbWallTimeWithPauses" : 85930334,
+      "dumbWallTimeWithoutPauses" : 85930334,
+      "totalWallTimeWithoutPauses" : 85930334
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 8,
+      "numberOfNothingToWriteFiles" : 0
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "SCSS",
+      "partOfTotalProcessingTime" : {
+        "part" : 407397374,
+        "total" : 407397374
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 5766207,
+        "total" : 5766207
+      },
+      "totalNumberOfFiles" : 8,
+      "totalFilesSize" : 63474,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 63474,
+        "totalCpuTime" : 407397374
+      },
+      "biggestContributors" : [ {
+        "providerName" : "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)",
+        "numberOfFiles" : 8,
+        "totalFilesSize" : 63474,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 407397374,
+          "total" : 407397374
+        }
+      } ]
+    } ],
+    "totalStatsPerBaseLanguage" : [ {
+      "language" : "SCSS",
+      "partOfTotalProcessingTime" : {
+        "part" : 407397374,
+        "total" : 407397374
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 11532414,
+        "total" : 5766207
+      },
+      "totalNumberOfFiles" : 8,
+      "totalFilesSize" : 63474,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 63474,
+        "totalCpuTime" : 407397374
+      }
+    }, {
+      "language" : "CSS",
+      "partOfTotalProcessingTime" : {
+        "part" : 407397374,
+        "total" : 407397374
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 11532414,
+        "total" : 5766207
+      },
+      "totalNumberOfFiles" : 8,
+      "totalFilesSize" : 63474,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 63474,
+        "totalCpuTime" : 407397374
+      }
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "Stubs",
+      "partOfTotalIndexingTime" : {
+        "part" : 363953126,
+        "total" : 385902041
+      },
+      "totalNumberOfFiles" : 8,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 63474,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 63474,
+        "totalCpuTime" : 363953126
+      }
+    }, {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 20814583,
+        "total" : 385902041
+      },
+      "totalNumberOfFiles" : 8,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 63474,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 63474,
+        "totalCpuTime" : 20814583
+      }
+    }, {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : {
+        "part" : 1134332,
+        "total" : 385902041
+      },
+      "totalNumberOfFiles" : 8,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 63474,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 63474,
+        "totalCpuTime" : 1134332
+      }
+    } ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 0,
+      "retrievingTime" : 20291
+    },
+    "fileProviderStatistics" : [ {
+      "providerName" : "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)",
+      "totalNumberOfIndexedFiles" : 8,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 0,
+      "totalIndexingVisibleTime" : 84618625,
+      "contentLoadingVisibleTime" : 1197672,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 2889821
+    }, {
+      "providerName" : "Refreshed files",
+      "totalNumberOfIndexedFiles" : 0,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 0,
+      "totalIndexingVisibleTime" : 0,
+      "contentLoadingVisibleTime" : 0,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 0
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 0.0
+  }
+}

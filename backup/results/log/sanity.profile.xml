@@ -1,0 +1,9 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="qodana.sanity" />
+    <inspection_tool class="QodanaSanity" enabled="true" level="ERROR" enabled_by_default="false">
+      <scope name="Hierarchy:[(com.intellij.codeInspection.inspectionProfile.YamlInspectionProfileImpl$getGlobScope$packageSet$1@a58f4ff, false), (com.intellij.codeInspection.inspectionProfile.YamlInspectionProfileImpl$getGlobScope$packageSet$1@2b4a8b80, false), (com.intellij.codeInspection.inspectionProfile.YamlInspectionProfileImpl$getGlobScope$packageSet$1@277e2068, false), (com.intellij.codeInspection.inspectionProfile.YamlInspectionProfileImpl$getGlobScope$packageSet$1@39a4ac35, false), (com.intellij.codeInspection.inspectionProfile.YamlInspectionProfileImpl$getGlobScope$packageSet$1@741648f2, false), (com.intellij.psi.search.scope.packageSet.CustomScopesProviderEx$AllScopeHolder$1@3e85d136, true)]" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="RiderSolutionErrorsInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>

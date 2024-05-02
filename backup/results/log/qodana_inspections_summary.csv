@@ -1,0 +1,16 @@
+Inspection ID;Inspection Group;Inspection Name;Inspection Language;Inspection Type;Absolute Time spent on Inspection, s;Percent of Time spent on Inspection;Problems Count;Times Inspection was Performed
+QodanaSanity;Qodana;Sanity;none;GLOBAL_SIMPLE;0.91;79.03%;0;8
+XmlUnboundNsPrefix;XML;Unbound namespace prefix;XML;LOCAL;0.13;11.10%;0;1
+InjectedReferences;General;Injected references;none;LOCAL;0.08;7.08%;0;1
+Annotator;General;Annotator;none;GLOBAL_SIMPLE;0.01;1.31%;0;1
+Eslint;JavaScript and TypeScript/Code quality tools;ESLint;JavaScript;LOCAL;0.01;1.03%;0;4
+NetCoverageInspection;Code Coverage;Check .NET source code coverage;C#;GLOBAL_SIMPLE;0.00;0.17%;0;8
+CssUnusedSymbol;CSS;Unused selector;CSS;GLOBAL_SIMPLE;0.00;0.14%;0;1
+XsltDeclarations;XSLT;Incorrect declaration;XML;LOCAL;0.00;0.10%;0;1
+TaskProblemsInspection;File Watchers;File watcher problems;none;LOCAL;0.00;0.03%;0;1
+EditorConfigEncoding;EditorConfig;File encoding doesn't match EditorConfig charset;none;LOCAL;0.00;0.00%;0;1
+HtmlUnknownTag;HTML;Unknown tag;HTML;LOCAL;0.00;0.00%;0;1
+CustomRegExpInspection;RegExp;Custom RegExp inspection;;LOCAL;0.00;0.00%;0;3
+CheckImageSize;HTML;Mismatched image size;XML;LOCAL;0.00;0.00%;0;1
+HtmlFormInputWithoutLabel;HTML/Accessibility;Missing associated label;XML;LOCAL;0.00;0.00%;0;1
+RedundantSuppression;General;Redundant suppression;none;GLOBAL_SIMPLE;0.00;0.00%;0;2

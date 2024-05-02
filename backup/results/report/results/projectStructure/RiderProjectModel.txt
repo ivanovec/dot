@@ -1,0 +1,81 @@
+Project [Name:&, GUID:f300dc1b-e643-4ccb-80ee-a7f840b07500]
+  Child items:
+    ProjectFileImpl(Path : Solution1.sln)[]
+  Referenced projects:
+  Referenced assemblies:
+
+Project [Name:ConsoleApplication1, GUID:9cb70504-6aeb-4276-b5cd-588973bedfa6]
+  CSharp Properties:
+    Active configuration for '.NETFramework,Version=v4.8':
+        AllowUnsafeCode:False
+        BaseAddress:4194304
+        CheckForOverflowUnderflow:False
+        FileAlignment:512
+        DebugSymbols:True
+        IncrementalBuild:True
+        WarningsAsErrors:
+        LanguageVersion:CSharp73
+        NullableContextKind:Disable
+        ImplicitUsingsKind:Disable
+        DefineConstants:DEBUG;TRACE
+        EnableUnmanagedCodeDebugging:False
+        GenerateSerializationAssemblies :False
+        RelativeIntermediateDirectory:obj/Debug/
+        Optimize:False
+        RegisterForCOMInterop:False
+        RemoveIntegerChecks:False
+        NoWarn:;1701;1702
+        TreatWarningsAsErrors:False
+        WarningLevel:4
+        DocumentationFile:
+        OutputType:CONSOLE_EXE
+        StartupObject:
+        OutputAssemblyName:ConsoleApplication1
+        OutputAssemblyExtension:.exe
+        HasRunCommand:False
+      Name:Debug
+      RelativeOutputDirectory:bin/Debug/
+      RelativeIntermediateDirectory:obj/Debug/
+      Properties:AndroidUseManagedDesignTimeResourceGenerator=True, AssemblyName=ConsoleApplication1, BaseIntermediateOutputPath=obj/, CSharpCoreTargetsPath=/usr/share/dotnet/sdk/8.0.100/Roslyn/Microsoft.CSharp.Core.targets, LangVersion=7.3, MSBuildProjectExtensionsPath=/data/project/ConsoleApplication1/obj/, NoWarn=;1701;1702, OutputPath=bin/Debug/, PlatformTarget=AnyCPU, ProduceReferenceAssembly=false, RootNamespace=ConsoleApplication1, RoslynTargetsPath=/usr/share/dotnet/sdk/8.0.100/Roslyn, TargetExt=.exe, TargetPath=/data/project/ConsoleApplication1/bin/Debug/ConsoleApplication1.exe
+    Build Settings:
+        PreBuildEvent:
+        PostBuildEvent:
+        ApplicationType:
+        DefaultNamespace:ConsoleApplication1
+        ImportedNamespaces:
+        RunPostBuildEventType:ALWAYS
+        IsBuildable:True
+        IsDeployable:False
+        Configuration:Debug
+        PlatformTarget:AnyCPU
+    ProjectTypeGuid:fae04ec0-301f-11d3-bf4b-00c04f79efbc
+  Child items:
+    ProjectFileImpl(Path : ConsoleApplication1.csproj)[]
+    ProjectFileImpl(Path : FooCls.test.ts)[TYPESCRIPTCOMPILE ]
+    ProjectFileImpl(Path : FooCls.ts)[TYPESCRIPTCOMPILE ]
+    ProjectFileImpl(Path : Program.cs)[COMPILE ]
+    Folder [Name:Properties, IsAppDesigner:true]
+      Child items:
+        ProjectFileImpl(Path : AssemblyInfo.cs)[COMPILE ]
+    ProjectFileImpl(Path : babel.config.js)[CONTENT ]
+    ProjectFileImpl(Path : jest.config.js)[CONTENT ]
+  Target framework: .NETFramework,Version=v4.8
+    Referenced projects:
+    Referenced assemblies:
+      mscorlib, Version=null, Unresolved [CopyLocal=False, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=True, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System, Unresolved (Reason: Reference was not resolved by MsBuild:
+[MSB3245] Could not resolve this reference. Could not locate the assembly "System". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. at (2382:5)
+[MSB3245] Could not resolve this reference. Could not locate the assembly "System.Data". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. at (2382:5)
+[MSB3245] Could not resolve this reference. Could not locate the assembly "System.Xml". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. at (2382:5)
+[MSB3245] Could not resolve this reference. Could not locate the assembly "System.Core". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. at (2382:5)) [CopyLocal=False, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=False, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Core, Unresolved (Reason: Reference was not resolved by MsBuild:
+[MSB3245] Could not resolve this reference. Could not locate the assembly "System.Core". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. at (2382:5)) [CopyLocal=False, AutoReferenced=True, AliasList=, EmbedInteropTypes=False, IsHidden=False, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Data, Unresolved (Reason: Reference was not resolved by MsBuild:
+[MSB3245] Could not resolve this reference. Could not locate the assembly "System.Data". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. at (2382:5)) [CopyLocal=False, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=False, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+      System.Xml, Unresolved (Reason: Reference was not resolved by MsBuild:
+[MSB3245] Could not resolve this reference. Could not locate the assembly "System.Xml". Check to make sure the assembly exists on disk. If this reference is required by your code, you may get compilation errors. at (2382:5)) [CopyLocal=False, AutoReferenced=False, AliasList=, EmbedInteropTypes=False, IsHidden=False, IsOutputAssembly=False, ReferenceOutputAssembly=True]
+
+Project [Name:Miscellaneous Files, GUID:7020124f-9ffc-4ac3-8f3d-aab8e0240759]
+  Sub items count: 0  Referenced projects:
+  Referenced assemblies:
+

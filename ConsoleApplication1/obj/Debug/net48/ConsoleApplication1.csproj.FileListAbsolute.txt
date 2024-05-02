@@ -1,0 +1,8 @@
+/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/bin/Debug/net48/ConsoleApplication1.exe.config
+/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/bin/Debug/net48/ConsoleApplication1.exe
+/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/bin/Debug/net48/ConsoleApplication1.pdb
+/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/obj/Debug/net48/ConsoleApplication1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/obj/Debug/net48/ConsoleApplication1.csproj.CoreCompileInputs.cache
+/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/obj/Debug/net48/ConsoleApplication1.sourcelink.json
+/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/obj/Debug/net48/ConsoleApplication1.exe
+/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/obj/Debug/net48/ConsoleApplication1.pdb

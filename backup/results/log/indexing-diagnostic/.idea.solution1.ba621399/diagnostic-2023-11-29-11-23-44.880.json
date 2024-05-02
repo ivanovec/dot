@@ -1,0 +1,64 @@
+{
+  "appInfo" : {
+    "build" : "233.12259.111.68",
+    "buildDate" : "2023-11-27T13:41:00Z[UTC]",
+    "productCode" : "QDNET",
+    "generated" : "2023-11-29T11:23:44.882425173Z",
+    "os" : "Linux 5.15.49-linuxkit-pr",
+    "runtime" : "JetBrains s.r.o. 17.0.9 17.0.9+7-b1087.7"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 5762973696,
+    "numberOfProcessors" : 6,
+    "maxNumberOfIndexingThreads" : 5,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "Solution1",
+    "times" : {
+      "scanningReason" : "changes in: \"Module 'rider.module' (empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 2083,
+      "concurrentHandlingWallTimeWithoutPauses" : 13606958,
+      "concurrentHandlingWallTimeWithPauses" : 13606958,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 12782625,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 285250,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 12401083,
+      "delayedPushPropertiesStageTime" : 4500,
+      "indexExtensionsTime" : 2207,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2023-11-29T11:23:44.779595923Z",
+      "updatingEnd" : "2023-11-29T11:23:44.848715339Z",
+      "totalWallTimeWithPauses" : 69111500,
+      "wallTimeOnPause" : 0,
+      "wasInterrupted" : false,
+      "totalWallTimeWithoutPauses" : 69111500
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 7,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 6
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Module 'rider.module' (empty)",
+      "numberOfScannedFiles" : 7,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 6,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 11228875,
+      "totalOneThreadTimeWithPauses" : 12782625,
+      "iterationAndScannersApplicationTime" : 285250,
+      "filesCheckTime" : 12401083,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 2036877,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 2207,
+      "roots" : [ ]
+    } ]
+  }
+}

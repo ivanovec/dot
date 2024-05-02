@@ -1,0 +1,46 @@
+﻿16:43:27.417 |I| Core                           | RequestBuilder thread:10       | MsBuild process with Id = 91
+16:43:27.418 |I| Core                           | RequestBuilder thread:10       | MsBuild location = /usr/share/dotnet/sdk/8.0.101/MSBuild.dll
+16:43:27.419 |I| Core                           | RequestBuilder thread:10       | ServerGC = False
+16:43:27.419 |I| Core                           | RequestBuilder thread:10       | 
+16:43:27.419 |I| Core                           | RequestBuilder thread:10       | Start ControllerTask...
+16:43:27.420 |I| Core                           | RequestBuilder thread:10       | Detected version: 17.8
+16:43:27.421 |I| Core                           | RequestBuilder thread:10       | Creating SocketWire with port = 33665
+16:43:27.426 |I| Core                           | RequestBuilder thread:10       | Create protocol...
+16:43:27.437 |I| Core                           | RequestBuilder thread:10       | Create MsBuildModel and advise for new sessions...
+16:43:27.443 |I| Core                           | RequestBuilder thread:10       | Subscribe for changes...
+16:43:27.444 |I| Core                           | RequestBuilder thread:10       | Setup process watchdog...
+16:43:27.445 |I| Core                           | RequestBuilder thread:10       | Run dispatcher...
+16:43:27.445 |I| ProcessWatchdog                | WatchParentPid:45:15           | Monitoring parent process PID:45
+16:43:27.479 |I| Core                           | RequestBuilder thread:10       | Get protocol session 'RdProjectModelSession'
+16:43:27.481 |I| Core                           | RequestBuilder thread:10       | Msbuild session 'ProjectModelSessionHost' created
+16:43:27.488 |I| Core                           | RequestBuilder thread:10       | Change Verbosity to INFO
+16:43:27.500 |I| ProjectModel                   | RequestBuilder thread:10       | Reloading 1 project(s) in 1 node(s)...
+16:43:27.503 |I| ProjectModel                   | RequestBuilder thread:10       | Reason: ColdStartup
+16:43:27.505 |I| Build                          | MSBuild LoggingService events queue pump: 42708074:17 | Build started.
+16:43:27.507 |I| BuildQueue                     | RequestBuilder thread:10       | Build queue: True
+16:43:27.680 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \data\project\ConsoleApplication1\ConsoleApplication1.csproj
+16:43:27.681 |I| Build                          | RequestBuilder thread:10       | Start build 'ConsoleApplication1.csproj' with 1 target frameworks
+16:43:27.684 |I| Build                          | RequestBuilder thread:10       | Targets for build: GetSuggestedWorkloads;_CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;Compile;CoreCompile
+16:43:27.867 |I| Build                          | .NET TP Worker:9               | Finish build part [1/1] for project 'ConsoleApplication1.csproj': Success
+16:43:27.868 |I| Build                          | .NET TP Worker:9               | Finish build project 'ConsoleApplication1.csproj': Success
+16:43:28.030 |I| Build                          | MSBuild LoggingService events queue pump: 42708074:17 | Build succeeded.
+16:43:28.033 |I| ProjectModel                   | RequestBuilder thread:10       | Reloading has finished, statistic: 
+	Total: 0.53 sec
+	Binding: 0.03 sec
+	Evaluation: 0.15 sec
+16:43:31.796 |I| ProjectModel                   | RequestBuilder thread:10       | Reloading 1 project(s) in 1 node(s)...
+16:43:31.798 |I| ProjectModel                   | RequestBuilder thread:10       | Reason: Sync
+16:43:31.801 |I| Build                          | MSBuild LoggingService events queue pump: 24463011:19 | Build started.
+16:43:31.803 |I| BuildQueue                     | RequestBuilder thread:10       | Build queue: True
+16:43:31.934 |I| BuildQueue                     | RequestBuilder thread:10       | Build immediately: \data\project\ConsoleApplication1\ConsoleApplication1.csproj
+16:43:31.935 |I| Build                          | RequestBuilder thread:10       | Start build 'ConsoleApplication1.csproj' with 1 target frameworks
+16:43:31.937 |I| Build                          | RequestBuilder thread:10       | Targets for build: GetSuggestedWorkloads;_CheckForInvalidConfigurationAndPlatform;CollectCentralPackageVersions;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;ResolvePackageDependenciesDesignTime;Compile;CoreCompile
+16:43:32.023 |I| Build                          | .NET TP Worker:7               | Finish build part [1/1] for project 'ConsoleApplication1.csproj': Success
+16:43:32.024 |I| Build                          | .NET TP Worker:7               | Finish build project 'ConsoleApplication1.csproj': Success
+16:43:32.065 |I| Build                          | MSBuild LoggingService events queue pump: 24463011:19 | Build succeeded.
+16:43:32.066 |I| ProjectModel                   | RequestBuilder thread:10       | Reloading has finished, statistic: 
+	Total: 0.26 sec
+	Binding: 0.02 sec
+	Evaluation: 0.12 sec
+16:43:37.111 |I| Core                           | RequestBuilder thread:10       | Msbuild session 'ProjectModelSessionHost' was terminated
+16:43:37.111 |I| Core                           | RequestBuilder thread:10       | Connection lost, kill msbuild

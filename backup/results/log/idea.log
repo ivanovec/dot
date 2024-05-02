@@ -1,0 +1,579 @@
+2023-11-29 11:23:34,179 [     21]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE STARTED ------------------------------------------------------
+2023-11-29 11:23:34,233 [     75]   INFO - #c.i.u.i.PageCacheUtils - File page caching params:
+2023-11-29 11:23:34,234 [     76]   INFO - #c.i.u.i.PageCacheUtils - 	DEFAULT_PAGE_SIZE: 10485760
+2023-11-29 11:23:34,234 [     76]   INFO - #c.i.u.i.PageCacheUtils - 	Direct memory to use, max: 5742002176
+2023-11-29 11:23:34,234 [     76]   INFO - #c.i.u.i.PageCacheUtils - 	FilePageCache: regular + lock-free (LOCK_FREE_PAGE_CACHE_ENABLED:true)
+2023-11-29 11:23:34,236 [     78]   INFO - #c.i.p.i.b.AppStarter - JNA library (64-bit) loaded in 27 ms
+2023-11-29 11:23:34,236 [     78]   INFO - #c.i.u.i.PageCacheUtils - 	NEW_PAGE_CACHE_MEMORY_FRACTION: 0.20000000298023224
+2023-11-29 11:23:34,238 [     80]   INFO - #c.i.u.i.PageCacheUtils - 	Regular FilePageCache: 503316478 bytes
+2023-11-29 11:23:34,237 [     79]   INFO - #c.i.p.i.b.AppStarter - IDE: Qodana for .NET (build #QDNET-233.12259.111.68, Mon, 27 Nov 2023 13:41:00 GMT)
+2023-11-29 11:23:34,238 [     80]   INFO - #c.i.u.i.PageCacheUtils - 	New     FilePageCache: 125829122 bytes (+ up to 10.0% overflow)
+2023-11-29 11:23:34,240 [     82]   INFO - #c.i.p.i.b.AppStarter - OS: Linux (5.15.49-linuxkit-pr)
+2023-11-29 11:23:34,241 [     83]   INFO - #c.i.u.i.PageCacheUtils - 	DirectByteBuffers pool: 104857600 bytes
+2023-11-29 11:23:34,242 [     84]   INFO - #c.i.p.i.b.AppStarter - JRE: 17.0.9+7-b1087.7, aarch64 (JetBrains s.r.o.)
+2023-11-29 11:23:34,245 [     87]   INFO - #c.i.p.i.b.AppStarter - JVM: 17.0.9+7-b1087.7 (OpenJDK 64-Bit Server VM)
+2023-11-29 11:23:34,252 [     94]   INFO - #c.i.p.i.b.AppStarter - PID: 16
+2023-11-29 11:23:34,252 [     94]   INFO - #c.i.p.i.b.AppStarter - desktop: null
+2023-11-29 11:23:34,254 [     96]   INFO - #c.i.p.i.b.AppStarter - JVM options: [-XX:ErrorFile=/root/java_error_in_rider_%p.log, -XX:HeapDumpPath=/root/java_error_in_rider_.hprof, -Deap.login.enabled=false, -Dfus.internal.reduce.initial.delay=true, -Dide.warmup.use.predicates=false, -Didea.application.info.value=/opt/idea/bin/QodanaAppInfo.xml, -Didea.class.before.app=com.jetbrains.rider.protocol.EarlyBackendStarter, -Didea.config.path=/root/.config/idea, -Didea.headless.enable.statistics=true, -Didea.headless.statistics.device.id=200820300000000-0c71-ef9c-4252-7584f47bb2fd, -Didea.headless.statistics.max.files.to.send=5000, -Didea.headless.statistics.salt=0346c5edcf0e7997d86e4d25d388d24b, -Didea.job.launcher.without.timeout=true, -Didea.log.path=/data/results/log, -Didea.parent.prefix=Rider, -Didea.platform.prefix=Qodana, -Didea.plugins.path=/data/cache/plugins/233, -Didea.qodana.thirdpartyplugins.accept=true, -Didea.system.path=/data/cache/idea/233, -Dinspect.save.project.settings=true, -Djava.awt.headless=true, -Djava.net.useSystemProxies=true, -Djdk.attach.allowAttachSelf=true, -Djdk.http.auth.tunneling.disabledSchemes="", -Djdk.module.illegalAccess.silent=true, -Dkotlinx.coroutines.debug=off, -Dqodana.automation.guid=14d13ca2-2127-4b27-9fce-3932db4aae1d, -Dqodana.coverage.input=/data/coverage, -Dqodana.net.targetFrameworks=!net48;!net472;!net471;!net47;!net462;!net461;!net46;!net452;!net451;!net45;!net403;!net40;!net35;!net20;!net11, -Dqodana.recommended.profile.resource=qodana-dotnet.recommended.yaml, -Dqodana.starter.profile.resource=qodana-dotnet.starter.yaml, -Drider.collect.full.container.statistics=true, -Drider.suppress.std.redirect=true, -Dsun.io.useCanonCaches=false, -Dsun.tools.attach.tmp.only=true, -XX:+HeapDumpOnOutOfMemoryError, -XX:+UseG1GC, -XX:-OmitStackTraceInFastThrow, -XX:CICompilerCount=2, -XX:MaxJavaStackTraceDepth=10000, -XX:MaxRAMPercentage=70, -XX:ReservedCodeCacheSize=512m, -XX:SoftRefLRUPolicyMSPerMB=50, -Xlog:gc*:/data/results/log/gc.log, -ea, -Djb.vmOptionsFile=/root/.config/idea/ide.vmoptions, -Djava.system.class.loader=com.intellij.util.lang.PathClassLoader, -Didea.vendor.name=JetBrains, -Didea.paths.selector=Rider2023.3, -Djna.boot.library.path=/opt/idea/lib/jna/aarch64, -Dpty4j.preferred.native.folder=/opt/idea/lib/pty4j, -Djna.nosys=true, -Djna.noclasspath=true, -Dintellij.platform.runtime.repository.path=/opt/idea/modules/module-descriptors.jar, -Dide.native.launcher=true, -Didea.class.before.app=com.jetbrains.rider.protocol.EarlyBackendStarter, -Didea.show.customize.ide.wizard=true, -DFilePageCache.THROW_ERROR_ON_DUPLICATE_STORAGE_REGISTRATION=false, -Dsplash=true, -Daether.connector.resumeDownloads=false, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.ref=ALL-UNNAMED, --add-opens=java.base/java.lang.reflect=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.text=ALL-UNNAMED, --add-opens=java.base/java.time=ALL-UNNAMED, --add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.locks=ALL-UNNAMED, --add-opens=java.base/jdk.internal.vm=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.base/sun.nio.fs=ALL-UNNAMED, --add-opens=java.base/sun.security.ssl=ALL-UNNAMED, --add-opens=java.base/sun.security.util=ALL-UNNAMED, --add-opens=java.base/sun.net.dns=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing.plaf.gtk=ALL-UNNAMED, --add-opens=java.desktop/java.awt=ALL-UNNAMED, --add-opens=java.desktop/java.awt.dnd.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-opens=java.desktop/java.awt.image=ALL-UNNAMED, --add-opens=java.desktop/java.awt.peer=ALL-UNNAMED, --add-opens=java.desktop/java.awt.font=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.text.html=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.datatransfer=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.image=ALL-UNNAMED, --add-opens=java.desktop/sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.java2d=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/com.sun.java.swing=ALL-UNNAMED, --add-opens=jdk.attach/sun.tools.attach=ALL-UNNAMED, --add-opens=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-opens=jdk.internal.jvmstat/sun.jvmstat.monitor=ALL-UNNAMED, --add-opens=jdk.jdi/com.sun.tools.jdi=ALL-UNNAMED]
+2023-11-29 11:23:34,255 [     97]   INFO - #c.i.p.i.b.AppStarter - args: inspect qodana . /data/results
+2023-11-29 11:23:34,256 [     98]   INFO - #c.i.p.i.b.AppStarter - library path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+2023-11-29 11:23:34,257 [     99]   INFO - #c.i.p.i.b.AppStarter - boot library path: /opt/idea/jbr/lib
+2023-11-29 11:23:34,264 [    106]   INFO - #c.i.p.i.b.AppStarter - locale=en_US JNU=UTF-8 file.encoding=UTF-8
+    idea.config.path=/root/.config/idea
+    idea.system.path=/data/cache/idea/233
+    idea.plugins.path=/data/cache/plugins/233 -> ?
+    idea.log.path=/data/results/log
+2023-11-29 11:23:34,267 [    109]   INFO - #c.i.p.i.b.AppStarter - CPU cores: 6; ForkJoinPool.commonPool: java.util.concurrent.ForkJoinPool@7d68ef08[Running, parallelism = 6, size = 0, active = 0, running = 0, steals = 0, tasks = 0, submissions = 0]; factory: com.intellij.concurrency.IdeaForkJoinWorkerThreadFactory@4c16b20f
+2023-11-29 11:23:34,268 [    110]   INFO - #c.j.r.p.EarlyBackendStarter - Not starting backend early: no plugin cache, extra flags or env file
+2023-11-29 11:23:34,280 [    122]   INFO - #c.i.i.p.PluginManager - Module intellij.sh.python is not enabled because dependency com.intellij.modules.python is not available
+Module intellij.sh.markdown is not enabled because dependency org.intellij.plugins.markdown is not available
+Module intellij.sh.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.sh.terminal is not enabled because dependency org.jetbrains.plugins.terminal is not available
+Module intellij.less/copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.webDeployment/phpStorm is not enabled because dependency com.intellij.modules.phpstorm is not available
+Module rider-plugins-appender/llm is not enabled because dependency com.intellij.ml.llm is not available
+Module rider-plugins-appender/settingsSync is not enabled because dependency com.intellij.settingsSync is not available
+Module rider-plugins-appender/featuretrainer is not enabled because dependency training is not available
+Module rider-plugins-appender/gateway is not enabled because dependency com.jetbrains.gateway is not available
+Module rider-plugins-appender/dev is not enabled because dependency com.intellij.dev is not available
+Module rider-plugins-appender/docker is not enabled because dependency intellij.clouds.docker.file is not available
+Module rider-plugins-appender/completionstats is not enabled because dependency com.intellij.stats.completion is not available
+Module rider-plugins-appender/completionml is not enabled because dependency com.intellij.completion.ml.ranking is not available
+Module intellij.platform.images.copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.postcss/copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.javascript.debugger.javaee is not enabled because dependency com.intellij.javaee is not available
+Module intellij.javascript.debugger.nashorn is not enabled because dependency com.intellij.java is not available
+Module intellij.aqua.runners.cypress is not enabled because dependency intellij.sh.terminal is not available
+Module intellij.javascript.sharedIndexes is not enabled because dependency intellij.indexing.shared.core is not available
+Module intellij.javascript.sharedIndexes.generator is not enabled because dependency intellij.javascript.sharedIndexes is not available
+Module intellij.javascript.devkit is not enabled because dependency intellij.devkit.core is not available
+Module intellij.javascript.impl/diagrams is not enabled because dependency com.intellij.diagram is not available
+Module intellij.database.diagrams is not enabled because dependency com.intellij.diagram is not available
+Module intellij.qodana.jvm.coverage is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.jvm.swagger is not enabled because dependency com.intellij.swagger is not available
+Module intellij.qodana.jvm.maven is not enabled because dependency org.jetbrains.idea.maven is not available
+Module intellij.qodana.jvm.java is not enabled because dependency com.intellij.java is not available
+Module intellij.qodana.jvm.kotlin is not enabled because dependency org.jetbrains.kotlin is not available
+Module intellij.qodana.jvm.groovy is not enabled because dependency org.intellij.groovy is not available
+Module intellij.qodana.jvm.gradle is not enabled because dependency com.intellij.gradle is not available
+Module intellij.qodana.jvm.dev is not enabled because dependency intellij.java.dev is not available
+Module intellij.qodana.python is not enabled because dependency Pythonid is not available
+Module intellij.qodana.php is not enabled because dependency com.jetbrains.php is not available
+Module intellij.vuejs/copyright is not enabled because dependency com.intellij.copyright is not available
+Module intellij.vuejs/prettier is not enabled because dependency intellij.prettierJS is not available
+Module intellij.microservices.ui/diagram is not enabled because dependency com.intellij.diagram is not available
+2023-11-29 11:23:34,289 [    131]   INFO - #c.i.i.p.PluginManager - Loaded bundled plugins: Rider Plugins Appender (233.12259.111), XAML Previewer (233.12259.111), Ini (233.12259.111), IntelliLang (233.12259.111), Git (233.12259.111), Live Edit (233.12259.111), Qodana (233.12259.111), dotTrace and dotMemory (233.12259.111), ChangeReminder (233.12259.111), XPathView + XSLT (233.12259.111), CIDR-ParallelStacks (233.12259.111), Database Tools and SQL (233.12259.111), Vue.js (233.12259.111), Support for publishing to custom servers (233.12259.111), Rider Languages (233.12259.111.68), Properties (233.12259.111), Karma (233.12259.111), EditorConfig (233.12259.111), CSS (233.12259.111), TextMate Bundles (233.12259.111), JavaScript Intention Power Pack (233.12259.111), W3C Validators (233.12259.111), Support for ASP.NET and Razor (233.12259.111), Performance Testing (233.12259.111), PostCSS (233.12259.111), File Watchers (233.12259.111), JavaScript Debugger (233.12259.111), Dependency Analysis (233.12259.111), ForTea (233.12259.111), Data Editor Support (233.12259.111), Polymer & Web Components (233.12259.111), dotCover (233.12259.111), Charts Support (233.12259.111), Refactor-X (233.12259.111), Data Editor Support Core (233.12259.111), YAML (233.12259.111), TSLint (233.12259.111), Support for C++ Language (233.12259.111), JavaScript and TypeScript (233.12259.111), F# Support (233.12259.111), FTP/SFTP/WebDAV Connectivity (233.12259.111), Handlebars/Mustache (233.12259.111), Webpack (233.12259.111), Rider C++ IntelliLang (233.12259.111), Sass (233.12259.111), Shell Script (233.12259.111), Images (233.12259.111), Less (233.12259.111), Node.js (233.12259.111), Pug (ex-Jade) (233.12259.111), Mercurial (233.12259.111), CIDR Debugger (233.12259.111), Perforce Helix Core (233.12259.111), dotCommon (233.12259.111), Rider C++ Debugger (233.12259.111), Dynamic Program Analysis (233.12259.111), Vagrant (233.12259.111), Endpoints (233.12259.111), HTML Tools (233.12259.111), Unity Support (233.12259.111)
+2023-11-29 11:23:34,318 [    160]   INFO - #c.i.i.p.DisabledPluginsState - Plugins to enable: [com.jetbrains.dotTrace.dotMemory]
+2023-11-29 11:23:34,319 [    161]   INFO - #c.i.i.p.DisabledPluginsState - Plugins to enable: [com.jetbrains.dotCover]
+2023-11-29 11:23:34,344 [    186]   INFO - STDOUT - Installation home directory: file:////opt/idea
+2023-11-29 11:23:34,346 [    188]   INFO - STDOUT - System directory: file:////data/cache/idea/233
+2023-11-29 11:23:34,347 [    189]   INFO - STDOUT - Config directory: file:////root/.config/idea
+2023-11-29 11:23:34,348 [    190]   INFO - STDOUT - Log directory: file:////data/results/log
+2023-11-29 11:23:34,349 [    191]   INFO - #c.i.c.InspectionApplication - Command line arguments: [inspect, qodana, ., /data/results]
+2023-11-29 11:23:34,356 [    198]   WARN - #c.j.r.p.ProtocolManager - EarlyBackendStarter is null 
+2023-11-29 11:23:34,358 [    200]   INFO - #c.j.r.p.ProtocolManager - Create protocol...
+2023-11-29 11:23:34,395 [    237]   INFO - STDOUT - Debug | ByteBufferAsyncProcessor  | 58:DefaultDispatcher-worker-46 | PAUSE ('Socket not connected') :: {id = FrontendToBackend/Sender, state = 'Initialized'} 
+2023-11-29 11:23:34,398 [    240]   INFO - STDOUT - Debug | Server                    | 94:FrontendToBackend | FrontendToBackend: listening /127.0.0.1:34725 
+2023-11-29 11:23:34,533 [    375]   INFO - #c.j.r.p.ProtocolManager - Run ReSharper process...
+2023-11-29 11:23:34,540 [    382]   INFO - #c.j.r.p.ReSharperProcess - Starting resharper settings import
+2023-11-29 11:23:34,545 [    387]   INFO - #c.j.r.NetCoreUtil - Current os is not Ubuntu . shouldEnableServerGc=false
+2023-11-29 11:23:34,547 [    389]   INFO - #c.j.r.RiderEnvironment - %RESHARPER_HOST_BIN% is not set
+2023-11-29 11:23:34,548 [    390]   INFO - #c.j.r.RiderEnvironment - Rider.Backend.Crossgen.Version.txt found at /opt/idea/lib/ReSharperHost/Rider.Backend.Crossgen.Version.txt (bundled to IDEA)
+2023-11-29 11:23:34,550 [    392]   INFO - #c.j.r.CrossgenRunUtil - tryGetNiFile took 2ms
+2023-11-29 11:23:34,552 [    394]   INFO - #c.j.r.RiderEnvironment - %RESHARPER_HOST_BIN% is not set
+2023-11-29 11:23:34,553 [    395]   INFO - #c.j.r.RiderEnvironment - linux-arm64/Rider.Backend found at /opt/idea/lib/ReSharperHost/linux-arm64/Rider.Backend (bundled to IDEA)
+2023-11-29 11:23:34,554 [    396]   INFO - #c.j.r.RiderEnvironment - %RESHARPER_HOST_BIN% is not set
+2023-11-29 11:23:34,554 [    396]   INFO - #c.j.r.RiderEnvironment - linux-arm64/dotnet/dotnet found at /opt/idea/lib/ReSharperHost/linux-arm64/dotnet/dotnet (bundled to IDEA)
+2023-11-29 11:23:34,557 [    399]   INFO - #c.j.r.p.ReSharperProcess - * adding directory with expanded DLLs for the main backend dir: /opt/idea/lib/ReSharperHost.
+2023-11-29 11:23:34,558 [    400]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: rider.intellij.plugin.appender ("/opt/idea/plugins/rider-plugins-appender")
+2023-11-29 11:23:34,559 [    401]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: rider.intellij.plugin.appender (/opt/idea/plugins/rider-plugins-appender)
+2023-11-29 11:23:34,561 [    403]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.xaml.previewer ("/opt/idea/plugins/rider-plugins-xaml-preview")
+2023-11-29 11:23:34,562 [    404]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.xaml.previewer (/opt/idea/plugins/rider-plugins-xaml-preview)
+2023-11-29 11:23:34,563 [    405]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.plugins.ini4idea ("/opt/idea/plugins/ini")
+2023-11-29 11:23:34,563 [    405]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.plugins.ini4idea (/opt/idea/plugins/ini)
+2023-11-29 11:23:34,564 [    406]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.intellij.intelliLang ("/opt/idea/plugins/platform-langInjection")
+2023-11-29 11:23:34,570 [    412]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.intellij.intelliLang (/opt/idea/plugins/platform-langInjection)
+2023-11-29 11:23:34,571 [    413]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: Git4Idea ("/opt/idea/plugins/vcs-git")
+2023-11-29 11:23:34,572 [    414]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: Git4Idea (/opt/idea/plugins/vcs-git)
+2023-11-29 11:23:34,573 [    415]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.plugins.html.instantEditing ("/opt/idea/plugins/js-liveEdit")
+2023-11-29 11:23:34,574 [    416]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.plugins.html.instantEditing (/opt/idea/plugins/js-liveEdit)
+2023-11-29 11:23:34,575 [    417]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.intellij.qodana ("/opt/idea/plugins/qodana")
+2023-11-29 11:23:34,575 [    417]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.intellij.qodana (/opt/idea/plugins/qodana)
+2023-11-29 11:23:34,576 [    418]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.dotTrace.dotMemory ("/opt/idea/plugins/dotTrace.dotMemory")
+2023-11-29 11:23:34,576 [    418]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.dotTrace.dotMemory (/opt/idea/plugins/dotTrace.dotMemory)
+2023-11-29 11:23:34,577 [    419]   INFO - #c.j.r.p.ReSharperProcess - * adding directory with expanded DLLs for a set of full Rider.Backend plugins: /opt/idea/plugins/dotTrace.dotMemory/DotFiles.
+2023-11-29 11:23:34,579 [    421]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.changeReminder ("/opt/idea/plugins/vcs-changeReminder")
+2023-11-29 11:23:34,579 [    421]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.changeReminder (/opt/idea/plugins/vcs-changeReminder)
+2023-11-29 11:23:34,580 [    422]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: XPathView ("/opt/idea/plugins/xpath")
+2023-11-29 11:23:34,580 [    422]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: XPathView (/opt/idea/plugins/xpath)
+2023-11-29 11:23:34,581 [    423]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.cidr.parallelStacks ("/opt/idea/plugins/cidr-parallelStacks-plugin")
+2023-11-29 11:23:34,582 [    424]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.cidr.parallelStacks (/opt/idea/plugins/cidr-parallelStacks-plugin)
+2023-11-29 11:23:34,583 [    425]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.database ("/opt/idea/plugins/DatabaseTools")
+2023-11-29 11:23:34,584 [    426]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.database (/opt/idea/plugins/DatabaseTools)
+2023-11-29 11:23:34,585 [    427]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.jetbrains.plugins.vue ("/opt/idea/plugins/vuejs")
+2023-11-29 11:23:34,586 [    428]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.jetbrains.plugins.vue (/opt/idea/plugins/vuejs)
+2023-11-29 11:23:34,588 [    430]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.rider.publish.webDeploy ("/opt/idea/plugins/rider-plugins-publish-custom-server")
+2023-11-29 11:23:34,588 [    430]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.rider.publish.webDeploy (/opt/idea/plugins/rider-plugins-publish-custom-server)
+2023-11-29 11:23:34,589 [    431]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij ("/opt/idea/lib")
+2023-11-29 11:23:34,590 [    432]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij (/opt/idea/lib)
+2023-11-29 11:23:34,591 [    433]   INFO - #c.j.r.p.ReSharperProcess - * adding project templates directory: /opt/idea/lib/projectTemplates
+2023-11-29 11:23:34,591 [    433]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.properties ("/opt/idea/plugins/properties")
+2023-11-29 11:23:34,592 [    434]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.properties (/opt/idea/plugins/properties)
+2023-11-29 11:23:34,593 [    435]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: Karma ("/opt/idea/plugins/karma")
+2023-11-29 11:23:34,593 [    435]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: Karma (/opt/idea/plugins/karma)
+2023-11-29 11:23:34,594 [    436]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.editorconfig.editorconfigjetbrains ("/opt/idea/plugins/editorconfig")
+2023-11-29 11:23:34,594 [    436]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.editorconfig.editorconfigjetbrains (/opt/idea/plugins/editorconfig)
+2023-11-29 11:23:34,595 [    437]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.css ("/opt/idea/plugins/css-impl")
+2023-11-29 11:23:34,596 [    438]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.css (/opt/idea/plugins/css-impl)
+2023-11-29 11:23:34,596 [    438]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.jetbrains.plugins.textmate ("/opt/idea/plugins/textmate")
+2023-11-29 11:23:34,597 [    439]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.jetbrains.plugins.textmate (/opt/idea/plugins/textmate)
+2023-11-29 11:23:34,597 [    439]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: JSIntentionPowerPack ("/opt/idea/plugins/javascript-intentions")
+2023-11-29 11:23:34,598 [    440]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: JSIntentionPowerPack (/opt/idea/plugins/javascript-intentions)
+2023-11-29 11:23:34,598 [    440]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: W3Validators ("/opt/idea/plugins/w3validators")
+2023-11-29 11:23:34,599 [    441]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: W3Validators (/opt/idea/plugins/w3validators)
+2023-11-29 11:23:34,599 [    441]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.rider.razor ("/opt/idea/plugins/rider-plugins-razor")
+2023-11-29 11:23:34,600 [    442]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.rider.razor (/opt/idea/plugins/rider-plugins-razor)
+2023-11-29 11:23:34,600 [    442]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.performancePlugin ("/opt/idea/plugins/performanceTesting")
+2023-11-29 11:23:34,601 [    443]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.performancePlugin (/opt/idea/plugins/performanceTesting)
+2023-11-29 11:23:34,601 [    443]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.intellij.plugins.postcss ("/opt/idea/plugins/postcss")
+2023-11-29 11:23:34,602 [    444]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.intellij.plugins.postcss (/opt/idea/plugins/postcss)
+2023-11-29 11:23:34,602 [    444]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.plugins.watcher ("/opt/idea/plugins/fileWatcher")
+2023-11-29 11:23:34,603 [    445]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.plugins.watcher (/opt/idea/plugins/fileWatcher)
+2023-11-29 11:23:34,604 [    446]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: JavaScriptDebugger ("/opt/idea/plugins/javascript-debugger")
+2023-11-29 11:23:34,605 [    447]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: JavaScriptDebugger (/opt/idea/plugins/javascript-debugger)
+2023-11-29 11:23:34,605 [    447]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.plugins.dependencyAnalysis ("/opt/idea/plugins/dependencyAnalysis")
+2023-11-29 11:23:34,606 [    448]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.plugins.dependencyAnalysis (/opt/idea/plugins/dependencyAnalysis)
+2023-11-29 11:23:34,606 [    448]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.jetbrains.fortea ("/opt/idea/plugins/rider-plugins-for-tea")
+2023-11-29 11:23:34,607 [    449]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.jetbrains.fortea (/opt/idea/plugins/rider-plugins-for-tea)
+2023-11-29 11:23:34,607 [    449]   INFO - #c.j.r.p.ReSharperProcess - * adding directory with ad-hoc DLLs for a simplified Rider.Backend plugin: /opt/idea/plugins/rider-plugins-for-tea/dotnet.
+2023-11-29 11:23:34,608 [    450]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: intellij.grid.impl ("/opt/idea/plugins/grid-impl")
+2023-11-29 11:23:34,609 [    451]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: intellij.grid.impl (/opt/idea/plugins/grid-impl)
+2023-11-29 11:23:34,609 [    451]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.plugins.webcomponents ("/opt/idea/plugins/webComponents")
+2023-11-29 11:23:34,609 [    451]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.plugins.webcomponents (/opt/idea/plugins/webComponents)
+2023-11-29 11:23:34,610 [    452]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.dotCover ("/opt/idea/plugins/dotCover")
+2023-11-29 11:23:34,610 [    452]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.dotCover (/opt/idea/plugins/dotCover)
+2023-11-29 11:23:34,611 [    453]   INFO - #c.j.r.p.ReSharperProcess - * adding directory with expanded DLLs for a set of full Rider.Backend plugins: /opt/idea/plugins/dotCover/DotFiles.
+2023-11-29 11:23:34,612 [    454]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: intellij.charts ("/opt/idea/plugins/charts")
+2023-11-29 11:23:34,612 [    454]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: intellij.charts (/opt/idea/plugins/charts)
+2023-11-29 11:23:34,613 [    455]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: Refactor-X ("/opt/idea/plugins/xml-refactoring")
+2023-11-29 11:23:34,613 [    455]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: Refactor-X (/opt/idea/plugins/xml-refactoring)
+2023-11-29 11:23:34,613 [    455]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: intellij.grid.core.impl ("/opt/idea/plugins/grid-core-impl")
+2023-11-29 11:23:34,614 [    456]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: intellij.grid.core.impl (/opt/idea/plugins/grid-core-impl)
+2023-11-29 11:23:34,614 [    456]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.jetbrains.plugins.yaml ("/opt/idea/plugins/yaml")
+2023-11-29 11:23:34,615 [    457]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.jetbrains.plugins.yaml (/opt/idea/plugins/yaml)
+2023-11-29 11:23:34,615 [    457]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: tslint ("/opt/idea/plugins/tslint")
+2023-11-29 11:23:34,616 [    458]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: tslint (/opt/idea/plugins/tslint)
+2023-11-29 11:23:34,618 [    460]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.rider-cpp ("/opt/idea/plugins/rider-cpp")
+2023-11-29 11:23:34,619 [    461]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.rider-cpp (/opt/idea/plugins/rider-cpp)
+2023-11-29 11:23:34,620 [    462]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: JavaScript ("/opt/idea/plugins/javascript-impl")
+2023-11-29 11:23:34,620 [    462]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: JavaScript (/opt/idea/plugins/javascript-impl)
+2023-11-29 11:23:34,622 [    464]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.rider.fsharp ("/opt/idea/plugins/rider-plugins-fsharp")
+2023-11-29 11:23:34,623 [    465]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.rider.fsharp (/opt/idea/plugins/rider-plugins-fsharp)
+2023-11-29 11:23:34,624 [    466]   INFO - #c.j.r.p.ReSharperProcess - * adding directory with expanded DLLs for a set of full Rider.Backend plugins: /opt/idea/plugins/rider-plugins-fsharp/DotFiles.
+2023-11-29 11:23:34,626 [    468]   INFO - #c.j.r.p.ReSharperProcess - * adding project templates directory: /opt/idea/plugins/rider-plugins-fsharp/projectTemplates
+2023-11-29 11:23:34,627 [    469]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.plugins.webDeployment ("/opt/idea/plugins/webDeployment")
+2023-11-29 11:23:34,627 [    469]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.plugins.webDeployment (/opt/idea/plugins/webDeployment)
+2023-11-29 11:23:34,628 [    470]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.dmarcotte.handlebars ("/opt/idea/plugins/handlebars")
+2023-11-29 11:23:34,629 [    471]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.dmarcotte.handlebars (/opt/idea/plugins/handlebars)
+2023-11-29 11:23:34,630 [    472]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: intellij.webpack ("/opt/idea/plugins/webpack")
+2023-11-29 11:23:34,630 [    472]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: intellij.webpack (/opt/idea/plugins/webpack)
+2023-11-29 11:23:34,631 [    473]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.rider-cpp-injection ("/opt/idea/plugins/rider-plugins-cpp-injection")
+2023-11-29 11:23:34,632 [    474]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.rider-cpp-injection (/opt/idea/plugins/rider-plugins-cpp-injection)
+2023-11-29 11:23:34,634 [    476]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.jetbrains.plugins.sass ("/opt/idea/plugins/sass")
+2023-11-29 11:23:34,634 [    476]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.jetbrains.plugins.sass (/opt/idea/plugins/sass)
+2023-11-29 11:23:34,636 [    478]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.sh ("/opt/idea/plugins/sh")
+2023-11-29 11:23:34,637 [    479]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.sh (/opt/idea/plugins/sh)
+2023-11-29 11:23:34,639 [    481]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.platform.images ("/opt/idea/plugins/platform-images")
+2023-11-29 11:23:34,639 [    481]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.platform.images (/opt/idea/plugins/platform-images)
+2023-11-29 11:23:34,640 [    482]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.jetbrains.plugins.less ("/opt/idea/plugins/less")
+2023-11-29 11:23:34,640 [    482]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.jetbrains.plugins.less (/opt/idea/plugins/less)
+2023-11-29 11:23:34,641 [    483]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: NodeJS ("/opt/idea/plugins/nodeJS")
+2023-11-29 11:23:34,641 [    483]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: NodeJS (/opt/idea/plugins/nodeJS)
+2023-11-29 11:23:34,642 [    484]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.plugins.jade ("/opt/idea/plugins/jade")
+2023-11-29 11:23:34,643 [    485]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.plugins.jade (/opt/idea/plugins/jade)
+2023-11-29 11:23:34,645 [    487]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: hg4idea ("/opt/idea/plugins/vcs-hg")
+2023-11-29 11:23:34,645 [    487]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: hg4idea (/opt/idea/plugins/vcs-hg)
+2023-11-29 11:23:34,646 [    488]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.cidr.debugger ("/opt/idea/plugins/cidr-debugger-plugin")
+2023-11-29 11:23:34,646 [    488]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.cidr.debugger (/opt/idea/plugins/cidr-debugger-plugin)
+2023-11-29 11:23:34,648 [    490]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: PerforceDirectPlugin ("/opt/idea/plugins/vcs-perforce")
+2023-11-29 11:23:34,649 [    491]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: PerforceDirectPlugin (/opt/idea/plugins/vcs-perforce)
+2023-11-29 11:23:34,649 [    491]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.dotCommon ("/opt/idea/plugins/dotCommon")
+2023-11-29 11:23:34,650 [    492]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.dotCommon (/opt/idea/plugins/dotCommon)
+2023-11-29 11:23:34,650 [    492]   INFO - #c.j.r.p.ReSharperProcess - * adding directory with expanded DLLs for a set of full Rider.Backend plugins: /opt/idea/plugins/dotCommon/DotFiles.
+2023-11-29 11:23:34,651 [    493]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: intellij.rider.cpp.debugger ("/opt/idea/plugins/rider-plugins-cpp-debugger")
+2023-11-29 11:23:34,652 [    494]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: intellij.rider.cpp.debugger (/opt/idea/plugins/rider-plugins-cpp-debugger)
+2023-11-29 11:23:34,652 [    494]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.jetbrains.dpa ("/opt/idea/plugins/dpa")
+2023-11-29 11:23:34,653 [    495]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.jetbrains.dpa (/opt/idea/plugins/dpa)
+2023-11-29 11:23:34,653 [    495]   INFO - #c.j.r.p.ReSharperProcess - * adding directory with expanded DLLs for a set of full Rider.Backend plugins: /opt/idea/plugins/dpa/DotFiles.
+2023-11-29 11:23:34,654 [    496]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: org.jetbrains.plugins.vagrant ("/opt/idea/plugins/vagrant")
+2023-11-29 11:23:34,654 [    496]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: org.jetbrains.plugins.vagrant (/opt/idea/plugins/vagrant)
+2023-11-29 11:23:34,655 [    497]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.microservices.ui ("/opt/idea/plugins/microservices-ui")
+2023-11-29 11:23:34,655 [    497]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.microservices.ui (/opt/idea/plugins/microservices-ui)
+2023-11-29 11:23:34,655 [    497]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: HtmlTools ("/opt/idea/plugins/html-tools")
+2023-11-29 11:23:34,656 [    498]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: HtmlTools (/opt/idea/plugins/html-tools)
+2023-11-29 11:23:34,656 [    498]   INFO - #c.j.r.p.ReSharperProcess - Start analyzing IntelliJ Plugin: com.intellij.resharper.unity ("/opt/idea/plugins/rider-unity")
+2023-11-29 11:23:34,657 [    499]   INFO - #c.j.r.p.ReSharperProcess - Idea Plugin: com.intellij.resharper.unity (/opt/idea/plugins/rider-unity)
+2023-11-29 11:23:34,657 [    499]   INFO - #c.j.r.p.ReSharperProcess - * adding directory with ad-hoc DLLs for a simplified Rider.Backend plugin: /opt/idea/plugins/rider-unity/dotnet.
+2023-11-29 11:23:34,657 [    499]   INFO - #c.j.r.p.ReSharperProcess - * adding directory with DLLs for a debugger plugin: /opt/idea/plugins/rider-unity/dotnetDebuggerWorker.
+2023-11-29 11:23:34,658 [    500]   INFO - #c.j.r.p.ReSharperProcess - * adding directory with expanded DLLs for a set of full Rider.Backend plugins: /opt/idea/plugins/rider-unity/DotFiles.
+2023-11-29 11:23:34,658 [    500]   INFO - #c.j.r.p.ReSharperProcess - * adding project templates directory: /opt/idea/plugins/rider-unity/projectTemplates
+2023-11-29 11:23:34,674 [    516]   INFO - #c.j.r.p.ReSharperProcess - Additional packages: <Packages><Folder Path="/opt/idea/lib/ReSharperHost"/><Folder Path="/opt/idea/plugins/dotCommon/DotFiles"/><Folder Path="/opt/idea/plugins/dotCover/DotFiles"/><Folder Path="/opt/idea/plugins/dotTrace.dotMemory/DotFiles"/><Folder Path="/opt/idea/plugins/dpa/DotFiles"/><Folder Path="/opt/idea/plugins/rider-plugins-fsharp/DotFiles"/><Folder Path="/opt/idea/plugins/rider-unity/DotFiles"/><AdHocMetadata BaseDir="/opt/idea/plugins/rider-plugins-for-tea/dotnet" Version="233.12259.111" BuiltOn="1970-01-20T16:31:15Z" CompanyNameHuman="org.jetbrains" SubplatformName="fortea"><PackageFile RelativePath="ForTea.Core.dll" AssemblyName="*"/><PackageFile RelativePath="ForTea.Core.xml"/><PackageFile RelativePath="ForTea.RiderPlugin.dll" AssemblyName="*"/><PackageFile RelativePath="ForTea.RiderPlugin.xml"/><PackageFile RelativePath="JetBrains.CommonSdk.targets"/><PackageFile RelativePath="JetBrains.EnvDTE.Client.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.EnvDTE.Host.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.ForTea.Model.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.ForTea.Model.xml"/><PackageFile RelativePath="JetBrains.Platform.SDK.Common.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.Platform.SDK.Common.xml"/><PackageFile RelativePath="JetBrains.Platform.SDK.Helper.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.Platform.SDK.Helper.xml"/><PackageFile RelativePath="JetBrains.Platform.SDK.MsBuild.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.Platform.SDK.MsBuild.xml"/><PackageFile RelativePath="JetBrains.Platform.Sdk.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins.ForTea.Backend.Core.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins.ForTea.Backend.RiderPlugin.ForTea.RiderPlugin.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins.ForTea.Backend.RiderPlugin.JetBrains.TextTemplating.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins._ForTea.Pregenerated.BackendModel.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.TextTemplating.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.TextTemplating.xml"/></AdHocMetadata><AdHocMetadata BaseDir="/opt/idea/plugins/rider-unity/dotnet" Version="233.12259.111" BuiltOn="1970-01-20T16:31:15Z" CompanyNameHuman="com.intellij.resharper" SubplatformName="unity"><PackageFile RelativePath="Extensions/com.intellij.resharper.unity/annotations/UnityEditor.CoreModule.xml"/><PackageFile RelativePath="Extensions/com.intellij.resharper.unity/annotations/UnityEditor.EditorTestsRunner.xml"/><PackageFile RelativePath="Extensions/com.intellij.resharper.unity/annotations/UnityEditor.xml"/><PackageFile RelativePath="Extensions/com.intellij.resharper.unity/annotations/UnityEngine.AnimationModule.xml"/><PackageFile RelativePath="Extensions/com.intellij.resharper.unity/annotations/UnityEngine.CoreModule.xml"/><PackageFile RelativePath="Extensions/com.intellij.resharper.unity/annotations/UnityEngine.Networking.xml"/><PackageFile RelativePath="Extensions/com.intellij.resharper.unity/annotations/UnityEngine.PhysicsModule.xml"/><PackageFile RelativePath="Extensions/com.intellij.resharper.unity/annotations/UnityEngine.TestRunner.xml"/><PackageFile RelativePath="Extensions/com.intellij.resharper.unity/annotations/UnityEngine.TileModule.xml"/><PackageFile RelativePath="Extensions/com.intellij.resharper.unity/annotations/UnityEngine.xml"/><PackageFile RelativePath="JetBrains.Plugins.ReSharperUnity.resharper.resharper-json.src.Json.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins.ReSharperUnity.resharper.resharper-json.src.Json.Rider.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins.ReSharperUnity.resharper.resharper-unity.src.Unity.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins.ReSharperUnity.resharper.resharper-unity.src.Unity.Rider.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins.ReSharperUnity.resharper.resharper-unity.src.Unity.Shaders.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins.ReSharperUnity.resharper.resharper-yaml.src.Yaml.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins.ReSharperUnity.resharper.resharper-yaml.src.Yaml.Rider.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.Plugins._Unity.Pregenerated.BackendModel.JetMetadata.sstg"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Json.Rider.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Json.Rider.xml"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Json.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Json.xml"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Unity.Rider.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Unity.Rider.xml"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Unity.Shaders.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Unity.Shaders.xml"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Unity.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Unity.xml"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Yaml.Rider.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Yaml.Rider.xml"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Yaml.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.ReSharper.Plugins.Yaml.xml"/><PackageFile RelativePath="JetBrains.Unity.Model.dll" AssemblyName="*"/><PackageFile RelativePath="JetBrains.Unity.Model.xml"/></AdHocMetadata></Packages>
+2023-11-29 11:23:34,680 [    522]   INFO - #c.i.i.s.e.EventLogConfiguration - Generating new salt for FUS
+2023-11-29 11:23:34,682 [    524]   INFO - #c.j.r.p.ReSharperProcess - Start /opt/idea/lib/ReSharperHost/linux-arm64/Rider.Backend --runtimeconfig /opt/idea/lib/ReSharperHost/Rider.Backend.netcore.runtimeconfig.json --Port=34725 --enablecpp
+2023-11-29 11:23:34,684 [    526]   INFO - #c.j.r.p.ReSharperProcess - Log directory created: /data/results/log
+2023-11-29 11:23:34,693 [    535]   INFO - #c.j.r.p.ReSharperProcess - Rider backend PID: 139
+2023-11-29 11:23:34,694 [    536]   INFO - #c.j.r.p.ProtocolManager - Create protocol host...
+2023-11-29 11:23:34,833 [    675]   INFO - #c.i.o.v.n.p.FSRecords - VFS health-check enabled: first after 600000 ms, and each following 3600000 ms
+2023-11-29 11:23:34,840 [    682]   INFO - #c.i.u.s.JBUIScale - System scale factor: 1.0 (IDE-managed HiDPI)
+2023-11-29 11:23:34,845 [    687]   INFO - #c.j.r.i.RiderInitialConfigurator - Staring initial configuration...
+2023-11-29 11:23:34,848 [    690]   INFO - #c.i.a.o.PathMacrosImpl - Loaded path macros: {}
+2023-11-29 11:23:34,865 [    707]   INFO - #c.j.r.p.ProtocolManagerInitializer - Initialize protocol manager...
+2023-11-29 11:23:34,866 [    708]   INFO - #c.j.r.p.ProtocolManager - Initialize protocol manager
+2023-11-29 11:23:34,866 [    708]   INFO - #c.j.r.p.ProtocolManager - Initialize 1 hosts
+2023-11-29 11:23:34,866 [    708]   INFO - #c.i.o.a.Experiments - Experimental feature 'editor.reader.mode' is now turned OFF
+2023-11-29 11:23:34,881 [    723]   INFO - #c.j.r.p.ProtocolHost - Initialize protocol host ReSharper Process 0 with 21 components
+2023-11-29 11:23:34,930 [    772]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses 'fast' names enumerator (over mmapped file)
+2023-11-29 11:23:34,932 [    774]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses streamlined attributes storage (over mmapped file)
+2023-11-29 11:23:34,932 [    774]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content storage over new FilePageCache
+2023-11-29 11:23:34,933 [    775]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS uses content hash storage over mmapped file
+2023-11-29 11:23:35,062 [    904]   INFO - #c.i.i.p.ExpiredPluginsState - Plugins to skip: []
+2023-11-29 11:23:35,147 [    989]   INFO - #c.i.o.v.n.p.PersistentFSLoader - VFS: impl (expected) version=846656, 0 file records, 0 content blobs
+2023-11-29 11:23:35,155 [    997]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS initialized: 240 ms, 0 failed attempts, 0 error(s) were recovered
+2023-11-29 11:23:35,158 [   1000]   INFO - #c.i.o.v.n.p.FSRecordsImpl - VFS scanned: file-by-name index was populated
+2023-11-29 11:23:35,164 [   1006]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'debugger.attach.dialog.enabled' has changed to 'true'
+2023-11-29 11:23:35,173 [   1015]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'show.diff.preview.as.editor.tab.with.single.click' has changed to 'true'
+2023-11-29 11:23:35,174 [   1016]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'ide.tooltip.initialDelay' has changed to '0'
+2023-11-29 11:23:35,174 [   1016]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'ide.tooltip.initialDelay.highlighter' has changed to '150'
+2023-11-29 11:23:35,175 [   1017]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'ide.require.transaction.for.model.changes' has changed to 'false'
+2023-11-29 11:23:35,175 [   1017]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'search.everywhere.pattern.checking' has changed to 'false'
+2023-11-29 11:23:35,175 [   1017]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'actionSystem.fix.alt.gr' has changed to 'true'
+2023-11-29 11:23:35,176 [   1018]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'parameter.info.max.visible.rows' has changed to '10'
+2023-11-29 11:23:35,176 [   1018]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'performance.watcher.unresponsive.interval.ms' has changed to '1000'
+2023-11-29 11:23:35,178 [   1020]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'ide.tooltip.showAllSeverities' has changed to 'true'
+2023-11-29 11:23:35,179 [   1021]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'ide.allow.merge.buttons' has changed to 'true'
+2023-11-29 11:23:35,179 [   1021]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'vcs.enable.add.ignored.directories.to.exclude' has changed to 'false'
+2023-11-29 11:23:35,180 [   1022]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'rider.altEnter.search.field.show' has changed to 'false'
+2023-11-29 11:23:35,180 [   1022]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'rider.debugger.track.handled.exceptions.in.async.code' has changed to 'true'
+2023-11-29 11:23:35,184 [   1026]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'debugger.watches.in.variables' has changed to 'true'
+2023-11-29 11:23:35,187 [   1029]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'debugger.new.tool.window.layout' has changed to 'true'
+2023-11-29 11:23:35,219 [   1061]   INFO - #o.j.i.BuiltInServerManager - built-in server started, port 63342
+2023-11-29 11:23:35,255 [   1097]   INFO - #c.i.u.n.s.CertificateManager - Default SSL context initialized
+2023-11-29 11:23:35,278 [   1120]   INFO - #c.i.o.f.i.FileTypeManagerImpl - File types changed: ignored files list updated: *.pyc;*.pyo;*.rbc;*.yarb;.DS_Store;.git;.hg;.mypy_cache;.pytest_cache;.ruff_cache;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc
+2023-11-29 11:23:35,287 [   1129]   INFO - #c.i.o.v.i.l.NativeFileWatcherImpl - Native file watcher is disabled
+2023-11-29 11:23:35,299 [   1141]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: File type change: added - null, removed - null
+2023-11-29 11:23:35,305 [   1147]   INFO - #c.j.r.s.RiderSettingsUpdater - No last started product build information, considering isFirstSessionForNewUser = true.
+2023-11-29 11:23:35,311 [   1153]   INFO - #c.i.i.u.e.t.ExperimentalToolbarSettings - Hiding Main Toolbar (Classic) because the new toolbar is visible.
+2023-11-29 11:23:35,312 [   1154]   INFO - #c.i.i.u.e.t.ExperimentalToolbarSettings - Hiding NavBar because the new toolbar is visible.
+2023-11-29 11:23:35,323 [   1165]   INFO - #c.j.r.s.p.w.RiderPerAppToolWindowLayoutManager - Loaded default state
+2023-11-29 11:23:35,409 [   1251]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.lang.javascript.psi.jsdoc.impl.JSDocCustomTags initializer requests com.intellij.lang.javascript.JSDisposable instance
+2023-11-29 11:23:35,415 [   1257]   INFO - STDOUT - By using this Docker image, you agree to
+2023-11-29 11:23:35,416 [   1258]   INFO - STDOUT - - JetBrains Privacy Policy (https://jb.gg/jetbrains-privacy-policy)
+2023-11-29 11:23:35,416 [   1258]   INFO - STDOUT - - JETBRAINS EAP USER AGREEMENT (https://jb.gg/jetbrains-user-eap)
+2023-11-29 11:23:35,416 [   1258]   INFO - STDOUT - 
+2023-11-29 11:23:35,427 [   1269]   INFO - STDOUT - The Docker image includes an evaluation license.
+2023-11-29 11:23:35,428 [   1270]   INFO - STDOUT - The license will expire on January 26, 2024.
+2023-11-29 11:23:35,428 [   1270]   INFO - STDOUT - Please ensure you pull a new image on time.
+2023-11-29 11:23:35,429 [   1271]   INFO - STDOUT - Qodana license plan: Ultimate Plus
+2023-11-29 11:23:35,441 [   1283]   WARN - org.jline - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2023-11-29 11:23:35,442 [   1284]   INFO - #c.i.u.i.FileBasedIndexImpl - Indices to be built:TodoIndex(v = 13),VueNoScriptFilesIndex(v = 11),js.package.index(v = 12),VueComponentStylesIndex(v = 2),TypeScriptExternalPathCandidates(v = 0),Trigram.Index(v = 4),RelaxSymbolIndex(v = 0),js.string.literal.words.index(v = 4),Stubs(v = 46),CompassFunctionsIndex(v = 38),sql.routine.index(v = 1),XmlNamespaces(v = 8),css.template.selectors(v = 35),HtmlScriptSrcIndex(v = 1),filetypes(v = 4096),DomFileIndex(v = 0),html5.custom.attributes.index(v = 1),IdIndex(v = 22),fileIncludes(v = 6),js.test.names(v = 24),XmlTagNames(v = 1),js.implicit.elements.index(v = 1007559),editorconfig.index.name(v = 5),XsltSymbolIndex(v = 0),CssIndex(v = 40),js.custom.single.entry.index(v = 1007549),sql.types.count.index(v = 0),HtmlTagIdIndex(v = 3),yaml.keys.name(v = 1),FrameworkDetectionIndex(v = 65536),xmlProperties(v = 2),SchemaTypeInheritance(v = 2),json.file.root.values(v = 5),WebComponentsIndex(v = 5),FilenameIndex(v = 258)
+2023-11-29 11:23:35,445 [   1287]   INFO - #c.i.u.i.FileBasedIndexImpl - Using nice flusher for indexes
+2023-11-29 11:23:35,448 [   1290]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 166 ms. Initialized indexes: [FilenameIndex, TodoIndex, FrameworkDetectionIndex, Trigram.Index, IdIndex, json.file.root.values, DomFileIndex, filetypes, Stubs, XmlTagNames, RelaxSymbolIndex, fileIncludes, SchemaTypeInheritance, editorconfig.index.name, XmlNamespaces, html5.custom.attributes.index, CssIndex, xmlProperties, HtmlTagIdIndex, css.template.selectors, yaml.keys.name, js.package.index, XsltSymbolIndex, CompassFunctionsIndex, js.test.names, js.string.literal.words.index, js.custom.single.entry.index, js.implicit.elements.index, sql.routine.index, TypeScriptExternalPathCandidates, sql.types.count.index, HtmlScriptSrcIndex, WebComponentsIndex, VueNoScriptFilesIndex, VueComponentStylesIndex].
+2023-11-29 11:23:35,461 [   1303]   WARN - org.jline - Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2023-11-29 11:23:35,466 [   1308]   INFO - STDOUT -                                         
+2023-11-29 11:23:35,466 [   1308]   INFO - STDOUT -           _              _       
+2023-11-29 11:23:35,467 [   1309]   INFO - STDOUT -          /\ \           /\ \        Qodana for .NET 2023.3 EAP
+2023-11-29 11:23:35,467 [   1309]   INFO - STDOUT -         /  \ \         /  \ \       Documentation
+2023-11-29 11:23:35,468 [   1310]   INFO - STDOUT -        / /\ \ \       / /\ \ \      https://jb.gg/qodana-docs
+2023-11-29 11:23:35,468 [   1310]   INFO - STDOUT -       / / /\ \ \     / / /\ \ \     Contact us at
+2023-11-29 11:23:35,468 [   1310]   INFO - STDOUT -      / / /  \ \_\   / / /  \ \_\    qodana-support@jetbrains.com
+2023-11-29 11:23:35,469 [   1311]   INFO - STDOUT -     / / / _ / / /  / / /   / / /    Or via our issue tracker
+2023-11-29 11:23:35,469 [   1311]   INFO - STDOUT -    / / / /\ \/ /  / / /   / / /     https://jb.gg/qodana-issue
+2023-11-29 11:23:35,470 [   1312]   INFO - STDOUT -   / / /__\ \ \/  / / /___/ / /      Or share your feedback at our forum
+2023-11-29 11:23:35,471 [   1313]   INFO - STDOUT -  / / /____\ \ \ / / /____\/ /       https://jb.gg/qodana-forum
+2023-11-29 11:23:35,471 [   1313]   INFO - STDOUT -  \/________\_\/ \/_________/     
+2023-11-29 11:23:35,471 [   1313]   INFO - STDOUT -                                                    
+2023-11-29 11:23:35,472 [   1314]   INFO - STDOUT -                                         
+2023-11-29 11:23:35,473 [   1315]   INFO - STDOUT - Starting up Qodana for .NET 2023.3 EAP (build QDNET-233.12259.111.68)…done.
+2023-11-29 11:23:35,544 [   1386]   INFO - #c.i.p.s.StubIndexImpl - Following stub indices will be built:jade.mixin(v = 2),vue.components.index(v = 25),Scss.mixin(v = 3),vuex.store.index(v = 25),amd.requirePaths.index(v = 2),properties.index(v = 2),js.qualified.shortName(v = 4),Scss.variable(v = 2),vue.url.index(v = 25),ini.property.key(v = 2),js.class.index2(v = 3),js.symbol.index2(v = 6),js.imported.bindings.index(v = 2),Less.variables(v = 2),js.nonglobal.symbol.index(v = 2),ts.embedded.content.index(v = 2),ts.external.module.index(v = 3),vue.options.index(v = 25),Css.class(v = 3),js.export.default.react.component.index(v = 2),vue.extends.binding.index(v = 25),Css.custom.mixin(v = 2),JS.subclass.stub.index(v = 2),js.local.namespace.members.index(v = 2),amd.baseUrl.index(v = 2),dom.namespaceKey(v = 1),Css.custom.variable(v = 3),JS.class.super(v = 5),Scss.function(v = 3),vue.mixin.binding.index(v = 25),es6.assignment.index(v = 2),JS.framework.markers.index(v = 2),js.global.symbol.index(v = 2),dom.elementClass(v = 0),vue.global.filters.index(v = 25),Css.id(v = 2),js.amd.modules(v = 2),es6.exported.index(v = 2),ts.local.classes(v = 2),vue.id.index(v = 25),Css.ampersand.selector(v = 2),JS.class.implements(v = 3),js.typedef.index2(v = 2),sql.names(v = 21),js.used.remote.modules(v = 2),JS.global.qualified.elements(v = 3),sql.table.shortName(v = 3),vue.global.directives.index(v = 25),vue.composition.app.index(v = 25),Css.custom.property(v = 2),js.gcl.modules(v = 2),js.element.qualifiedName(v = 3),sql.column.name(v = 3),Less.mixins(v = 2),postcss.custom.selector(v = 2),Css.attr(v = 2),js.generics.index(v = 2),js.lazy.packages(v = 3),Scss.placeholder.selector(v = 2),js.exported.index(v = 2),postcss.custom.media(v = 2),ts.external.module.name.index(v = 3),JS.base.types.index(v = 3),js.symbol.qualified.names.index(v = 1),js.doc.modules(v = 2),redis.dml.shortName(v = 3),js.namespace.index(v = 2)
+2023-11-29 11:23:35,546 [   1388]   INFO - #c.i.u.i.IndexDataInitializer - Index data initialization done: 97 ms. Initialized stub indexes: {vue.global.directives.index, js.nonglobal.symbol.index, js.gcl.modules, properties.index, JS.framework.markers.index, vue.extends.binding.index, Scss.function, Css.ampersand.selector, js.imported.bindings.index, Css.custom.property, JS.subclass.stub.index, vue.options.index, ts.external.module.name.index, JS.base.types.index, js.typedef.index2, vue.global.filters.index, ts.local.classes, redis.dml.shortName, JS.class.implements, js.amd.modules, js.exported.index, amd.requirePaths.index, sql.names, Less.mixins, Less.variables, vuex.store.index, ini.property.key, postcss.custom.selector, amd.baseUrl.index, Css.custom.variable, js.local.namespace.members.index, vue.mixin.binding.index, Scss.mixin, dom.namespaceKey, es6.exported.index, js.class.index2, JS.class.super, js.export.default.react.component.index, Css.id, js.generics.index, jade.mixin, Css.attr, js.symbol.qualified.names.index, es6.assignment.index, sql.table.shortName, Scss.placeholder.selector, js.namespace.index, vue.id.index, JS.global.qualified.elements, ts.embedded.content.index, js.symbol.index2, ts.external.module.index, js.element.qualifiedName, js.lazy.packages, Css.custom.mixin, js.qualified.shortName, Scss.variable, dom.elementClass, vue.composition.app.index, postcss.custom.media, Css.class, vue.url.index, sql.column.name, js.used.remote.modules, vue.components.index, js.doc.modules, js.global.symbol.index}.
+2023-11-29 11:23:37,437 [   3279]   INFO - #c.i.i.s.DeviceIdManager - Generating new Device ID for 'MP'
+2023-11-29 11:23:37,438 [   3280]   INFO - #c.i.i.s.e.EventLogConfiguration - Generating new salt for MP
+2023-11-29 11:23:37,442 [   3284]   INFO - #o.j.q.s.i.r.ConsoleLog - Preparing for the Project opening stage ...
+2023-11-29 11:23:37,443 [   3285]   INFO - STDOUT - Preparing for the Project opening stage ...
+2023-11-29 11:23:37,584 [   3426]   INFO - #c.j.r.p.a.q.QodanaOpenDirectoryExtensions - Using solution configuration: Debug and platform Any CPU
+2023-11-29 11:23:37,591 [   3433]   INFO - #c.j.r.p.SolutionManager - Open Solution: 
+RdExistingSolution (
+  solutionDirectory = "/data/project"
+  solutionName = RdOptionalProperty: `<<not bound>>` (0)(ver=0) ["Solution1.sln"]
+)
+2023-11-29 11:23:37,604 [   3446]   INFO - #c.j.r.p.SolutionInitializer - Create protocol solution...
+2023-11-29 11:23:37,604 [   3446]   INFO - #c.j.r.p.ProtocolManager - GetOrCreate protocolHost...
+2023-11-29 11:23:37,607 [   3449]   INFO - #c.j.r.p.c.SolutionHost - Putting protocol solution...
+2023-11-29 11:23:37,610 [   3452]   INFO - #c.j.r.p.SolutionInitializer - Protocol solution created, initialize protocol components...
+2023-11-29 11:23:37,625 [   3467]   INFO - #c.j.r.a.ActionsOverrider - IDE backend created com.jetbrains.rider.services.RiderDefaultBackend@59317c02
+2023-11-29 11:23:37,686 [   3528]   INFO - #c.j.r.p.w.i.WorkspaceModelUpdater - Workspace model initialization started [IsColdStart=true]...
+2023-11-29 11:23:37,708 [   3550]   INFO - #c.j.r.p.w.i.WorkspaceModelUpdater - SolutionMark parsing started...
+2023-11-29 11:23:37,716 [   3558]   INFO - #c.j.r.p.w.i.WorkspaceModelUpdater - SolutionMark parsing finished
+2023-11-29 11:23:37,716 [   3558]   INFO - #c.j.r.p.w.i.WorkspaceModelUpdater - Initialize Workspace Model started...
+2023-11-29 11:23:37,729 [   3571]   INFO - #c.j.r.p.w.i.WorkspaceModelUpdater - Initialize Workspace Model finished
+2023-11-29 11:23:37,730 [   3572]   INFO - #c.j.r.p.w.i.WorkspaceModelUpdater - Workspace model initialization finished
+2023-11-29 11:23:37,752 [   3594]   WARN - #c.i.w.i.i.l.m.ModuleBridgeLoaderService - Loaded from cache, but no serialized modules found. Workspace model cache will be ignored, project structure will be recreated.
+2023-11-29 11:23:37,790 [   3632]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated silently to version 1 in 5 ms: Add module mapping
+2023-11-29 11:23:37,799 [   3641]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Loading global entities from files
+2023-11-29 11:23:37,822 [   3664]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-11-29 11:23:37,823 [   3665]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 2 in 19 ms: Sync global entities with project: Solution1
+2023-11-29 11:23:37,912 [   3754]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-11-29 11:23:37,975 [   3817]   INFO - #c.i.p.c.ProjectCodeStyleSettingsManager - Initialized from default code style settings.
+2023-11-29 11:23:38,015 [   3857]   INFO - #c.i.o.a.i.ActionManagerImpl - 'RefactoringMenu' action group in 'Rider Languages' sets isPopup=null (null).isPopup
+2023-11-29 11:23:38,026 [   3868]   INFO - #c.i.o.a.i.ActionManagerImpl - 'TodoViewGroupByGroup' action group in 'Rider Languages' sets isPopup=null (null).isPopup
+2023-11-29 11:23:38,104 [   3946]   INFO - #c.j.r.a.ActionsOverrider - Action manager created. Traversing IDE backends: [com.jetbrains.rider.services.RiderDefaultBackend@59317c02]
+2023-11-29 11:23:38,223 [   4065]   INFO - #c.i.p.PlatformProjectConfigurator - PlatformProjectConfigurator is not applicable because modules are already configured (module count: 1)
+2023-11-29 11:23:38,263 [   4105]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.psi.LanguageSubstitutors initializer requests com.intellij.psi.LanguageSubstitutors instance
+2023-11-29 11:23:38,267 [   4109]   INFO - #c.j.r.p.SolutionInitializer - Finish initialization
+2023-11-29 11:23:38,277 [   4119]   INFO - PerformancePlugin - Performance Plugin is in silent mode
+2023-11-29 11:23:38,281 [   4123]   INFO - #c.i.o.p.DumbServiceMergingTaskQueue - Initializing DumbServiceMergingTaskQueue...
+2023-11-29 11:23:38,283 [   4125]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@69edc1b
+2023-11-29 11:23:38,288 [   4130]   INFO - #c.j.r.f.RiderSolutionStatisticsIdListener - Sending ProjectCacheFileName to backend
+2023-11-29 11:23:38,324 [   4166]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.ProjectFileBasedIndexStartupActivity@69edc1b
+2023-11-29 11:23:38,325 [   4167]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Running task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@18d7c665
+2023-11-29 11:23:38,326 [   4168]   INFO - #c.i.o.p.InitialDumbTaskRequiredForSmartMode - Finished task required for smart mode: com.intellij.util.indexing.DumbModeWhileScanningSubscriber@18d7c665
+2023-11-29 11:23:38,353 [   4195]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of Solution1. Reason: On project open
+2023-11-29 11:23:38,356 [   4198]   INFO - #c.j.d.c.RunConfigurationToRuntimeCacheService - Runtime for runConfiguration `.NET Project: ConsoleApplication1`, duration 16ms: null
+2023-11-29 11:23:38,359 [   4201]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for Solution1 took 3ms; general responsiveness: ok; EDT responsiveness: ok
+2023-11-29 11:23:38,364 [   4206]   INFO - #c.i.o.a.i.NonBlockingReadActionImpl - OTel monitoring for NonBlockingReadAction is enabled
+2023-11-29 11:23:38,518 [   4360]   INFO - #c.i.l.t.l.TypeScriptLibraryProviderImpl - Start refreshing typescript libraries
+2023-11-29 11:23:38,523 [   4365]   INFO - #c.i.u.i.d.IndexingDependenciesFingerprint - Calculated dependencies fingerprint in 0 ms (hash=j1hn1bs58kyu, buildTime=1701092460, appVersion=QDNET-233.12259.111.68)
+2023-11-29 11:23:38,524 [   4366]   INFO - #c.i.u.i.d.AppIndexingDependenciesService - Invalidating all indexing flags. Reason: App fingerprint changed: FingerprintImpl(fingerprint=0) to FingerprintImpl(fingerprint=2506260040244994342)
+2023-11-29 11:23:38,528 [   4370]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of Solution1 uses 6 scanning threads
+2023-11-29 11:23:38,562 [   4404]   INFO - #c.i.l.t.l.TypeScriptLibraryProviderImpl - End refreshing typescript libraries
+2023-11-29 11:23:38,599 [   4441]   INFO - #c.i.d.u.SqlDialects - SQL dialects initialized in 9 ms
+2023-11-29 11:23:38,645 [   4487]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of Solution1.sln by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file Solution1.sln with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=6, fileInfo='Solution1.sln(id=6)'}] and removers: []; 
+2023-11-29 11:23:38,655 [   4497]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of ConsoleApplication1.csproj by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file ConsoleApplication1.csproj with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=8, fileInfo='ConsoleApplication1.csproj(id=8)'}] and removers: []; 
+2023-11-29 11:23:38,773 [   4615]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of mathml3.rnc by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file mathml3.rnc with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=189, fileInfo='mathml3.rnc(id=189)'}] and removers: []; 
+2023-11-29 11:23:38,774 [   4616]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of mathml3-inc.rnc by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file mathml3-inc.rnc with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=186, fileInfo='mathml3-inc.rnc(id=186)'}] and removers: []; 
+2023-11-29 11:23:38,776 [   4618]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of mathml3-common.rnc by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file mathml3-common.rnc with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=190, fileInfo='mathml3-common.rnc(id=190)'}] and removers: []; 
+2023-11-29 11:23:38,777 [   4619]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of mathml3-content.rnc by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file mathml3-content.rnc with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=187, fileInfo='mathml3-content.rnc(id=187)'}] and removers: []; 
+2023-11-29 11:23:38,778 [   4620]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of mathml3-presentation.rnc by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file mathml3-presentation.rnc with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=188, fileInfo='mathml3-presentation.rnc(id=188)'}] and removers: []; 
+2023-11-29 11:23:38,778 [   4620]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of mathml3-strict-content.rnc by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file mathml3-strict-content.rnc with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=185, fileInfo='mathml3-strict-content.rnc(id=185)'}] and removers: []; 
+2023-11-29 11:23:38,782 [   4624]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of resx.xsd by request of indexes: [DomFileIndex->NOT_INDEXED,XmlNamespaces->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file resx.xsd with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=191, fileInfo='resx.xsd(id=191)'}] and removers: []; 
+2023-11-29 11:23:38,782 [   4624]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of msdata.xsd by request of indexes: [DomFileIndex->NOT_INDEXED,XmlNamespaces->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file msdata.xsd with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=192, fileInfo='msdata.xsd(id=192)'}] and removers: []; 
+2023-11-29 11:23:38,948 [   4790]   WARN - #o.j.p.t.TextMateService - Cannot find referenced file `./language-configuration.json` in bundle `/opt/idea/plugins/textmate/lib/bundles/mdx`
+2023-11-29 11:23:39,138 [   4980]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for Solution1. Number of scanned files: 339; number of files for indexing: 339 took 777ms; general responsiveness: ok; EDT responsiveness: ok
+2023-11-29 11:23:39,140 [   4982]   INFO - #c.i.o.p.InitialVfsRefreshService - 15375f63: marking roots for initial VFS refresh
+2023-11-29 11:23:39,141 [   4983]   INFO - #c.i.o.p.InitialVfsRefreshService - 15375f63: starting initial VFS refresh of 0 roots
+2023-11-29 11:23:39,142 [   4984]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 5 indexing  and 0 writing threads for indexing
+2023-11-29 11:23:39,142 [   4984]   INFO - #c.i.o.p.InitialVfsRefreshService - 15375f63: initial VFS refresh finished in 0 ms
+2023-11-29 11:23:41,154 [   6996]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of Solution1 : 4 to update, calculated in 5ms
+2023-11-29 11:23:41,156 [   6998]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for Solution1. Unindexed files update took 2015ms; general responsiveness: ok; EDT responsiveness: ok
+2023-11-29 11:23:41,181 [   7023]   INFO - #c.i.c.InspectionApplicationBase - Waiting for startup activities
+2023-11-29 11:23:41,211 [   7053]   INFO - #c.i.o.v.i.p.NewMappings - VCS Root: [Git] - [/data/project]
+2023-11-29 11:23:41,221 [   7063]   WARN - #c.i.i.s.i.StartupManagerImpl - Migrate com.jetbrains.rider.settings.perApp.RiderPerAppSettingsRefresher to ProjectActivity [Plugin: com.intellij]
+com.intellij.diagnostic.PluginException: Migrate com.jetbrains.rider.settings.perApp.RiderPerAppSettingsRefresher to ProjectActivity [Plugin: com.intellij]
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivities(StartupManagerImpl.kt:277)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.access$runPostStartupActivities(StartupManagerImpl.kt:69)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invokeSuspend(StartupManagerImpl.kt:192)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3$2.invoke(StartupManagerImpl.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:78)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:167)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.ide.startup.impl.StartupManagerImpl$runPostStartupActivities$3.invokeSuspend(StartupManagerImpl.kt:191)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684)
+2023-11-29 11:23:41,224 [   7066]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-11-29 11:23:41,227 [   7069]   INFO - #c.i.w.i.i.WorkspaceModelImpl - Project model updated to version 4 in 35 ms: ConstantEntitiesCheckActivity
+2023-11-29 11:23:41,229 [   7071]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of Solution1. Reason: changes in: "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)"
+2023-11-29 11:23:41,230 [   7072]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for Solution1 took 0ms; general responsiveness: ok; EDT responsiveness: ok
+2023-11-29 11:23:41,232 [   7074]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of Solution1 uses 6 scanning threads
+2023-11-29 11:23:41,233 [   7075]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_functions.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_functions.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=443, fileInfo='sass_functions.scss(id=443)'}] and removers: []; 
+2023-11-29 11:23:41,234 [   7076]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_color.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_color.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=444, fileInfo='sass_color.scss(id=444)'}] and removers: []; 
+2023-11-29 11:23:41,234 [   7076]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_list.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_list.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=445, fileInfo='sass_list.scss(id=445)'}] and removers: []; 
+2023-11-29 11:23:41,235 [   7077]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_map.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_map.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=446, fileInfo='sass_map.scss(id=446)'}] and removers: []; 
+2023-11-29 11:23:41,235 [   7077]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_math.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_math.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=447, fileInfo='sass_math.scss(id=447)'}] and removers: []; 
+2023-11-29 11:23:41,236 [   7078]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_meta.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_meta.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=448, fileInfo='sass_meta.scss(id=448)'}] and removers: []; 
+2023-11-29 11:23:41,237 [   7079]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_selector.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_selector.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=449, fileInfo='sass_selector.scss(id=449)'}] and removers: []; 
+2023-11-29 11:23:41,239 [   7081]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of sass_string.scss by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file sass_string.scss with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=450, fileInfo='sass_string.scss(id=450)'}] and removers: []; 
+2023-11-29 11:23:41,240 [   7082]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for Solution1. Number of scanned files: 8; number of files for indexing: 8 took 9ms; general responsiveness: ok; EDT responsiveness: ok
+2023-11-29 11:23:41,240 [   7082]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 5 indexing  and 0 writing threads for indexing
+2023-11-29 11:23:41,272 [   7114]   INFO - #git4idea.commands.GitHandler - [.] git version
+2023-11-29 11:23:41,281 [   7123]   INFO - #git4idea.commands.GitHandler - git version 2.30.2
+2023-11-29 11:23:41,286 [   7128]   INFO - #git4idea.config.GitExecutableManager - Git version for /usr/bin/git: 2.30.2.0 (UNIX)
+2023-11-29 11:23:41,295 [   7137]   INFO - #c.i.o.p.SmartModeScheduler - Post-startup activity executed. Current mode: 4
+2023-11-29 11:23:41,299 [   7141]   INFO - #c.i.i.s.IdeStartupScripts - 0 startup script(s) found
+2023-11-29 11:23:41,309 [   7151]   INFO - #c.i.d.PerformanceWatcherImpl - Post-startup activities under progress took 146ms; general responsiveness: ok; EDT responsiveness: ok
+2023-11-29 11:23:41,325 [   7167]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of Solution1 : 0 to update, calculated in 0ms
+2023-11-29 11:23:41,326 [   7168]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for Solution1. Unindexed files update took 86ms; general responsiveness: ok; EDT responsiveness: ok
+2023-11-29 11:23:41,337 [   7179]   INFO - #c.i.o.e.s.p.m.ExternalProjectsDataStorage - Load external projects data in 0 millis (read time: 0)
+2023-11-29 11:23:41,358 [   7200]   INFO - #c.i.o.u.r.RegistryValue - Registry value 'dotTrace.profiler.core.options' has changed to ''
+2023-11-29 11:23:41,367 [   7209]   INFO - #c.j.d.RiderDotProfilingService - Plugin backend file JetBrains.Profiler.Rider.dotTraceMemoryPlugin.dll found in DotFiles: /opt/idea/plugins/dotTrace.dotMemory/DotFiles/JetBrains.Profiler.Rider.dotTraceMemoryPlugin.dll
+2023-11-29 11:23:41,388 [   7230]   WARN - #c.j.r.s.p.RiderPerAppSettingsRefresher - Got null for projectFrame
+2023-11-29 11:23:41,409 [   7251]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.database.console.session.DatabaseSessionManager initializer requests com.intellij.database.console.session.DatabaseSessionViewService instance
+2023-11-29 11:23:41,544 [   7386]   INFO - #c.i.c.InspectionApplicationBase - Startup activities finished
+2023-11-29 11:23:41,565 [   7407]   INFO - #c.i.i.b.BookmarksManager - no state loaded for new bookmarks
+2023-11-29 11:23:41,568 [   7410]   INFO - #c.i.i.b.BookmarkManager - no state loaded for old bookmarks
+2023-11-29 11:23:41,601 [   7443]   INFO - #c.i.i.f.FavoritesManager - no state loaded for old favorites
+2023-11-29 11:23:41,659 [   7501]   INFO - STDOUT - Opening project…done.
+2023-11-29 11:23:41,663 [   7505]   INFO - #o.j.q.s.i.r.ConsoleLog - The Project opening stage completed in 4s
+2023-11-29 11:23:41,663 [   7505]   INFO - STDOUT - The Project opening stage completed in 4s
+2023-11-29 11:23:41,747 [   7589]   INFO - #c.i.v.l.d.VcsLogData - Username not configured for root file:///data/project
+2023-11-29 11:23:41,917 [   7759]   WARN - #c.i.s.SpellCheckerManager - Couldn't load dictionary unity.dic with loader 'class com.jetbrains.rider.plugins.unity.spellchecker.UnityBundledDictionaryProvider'
+2023-11-29 11:23:41,933 [   7775]   INFO - #c.i.v.l.d.i.VcsLogPersistentIndex - Indexing full repository in project
+2023-11-29 11:23:41,977 [   7819]   INFO - #c.i.v.l.d.i.VcsLogPersistentIndex - 44ms for indexing 1 commits in project
+2023-11-29 11:23:41,981 [   7823]   INFO - #c.i.v.l.d.i.IndexDiagnosticRunner - Index diagnostic for [file:///data/project] is skipped as no commits were selected
+2023-11-29 11:23:42,147 [   7989]   INFO - #c.i.j.n.n.WorkingDirectoryDependentNpmPackageVersionManager - Version fetched successfully: 8.19.4; command: /usr/local/bin/npm --version, duration: 508ms
+2023-11-29 11:23:43,340 [   9182]   INFO - #c.j.d.RiderDotCoverService - Plugin backend file JetBrains.dotCover.ClientCore.dll found in DotFiles: /opt/idea/plugins/dotCover/DotFiles/JetBrains.dotCover.ClientCore.dll
+2023-11-29 11:23:43,676 [   9518]   INFO - #c.j.r.r.RiderDotNetActiveRuntimeHost - Update active runtime: RdActiveRuntime(monoExePath=null, dotNetCliExePath=/usr/share/dotnet/dotnet, dotNetCoreSdkList=[6.0.417, 8.0.100, 7.0.404], activeDotNetCoreSdkVersion=8.0.100, nonNativeDotNetCliExePaths=RdNonNativeDotNetCliExePaths(x86=null, x64=/usr/share/dotnet/dotnet))
+2023-11-29 11:23:44,748 [  10590]   INFO - #c.j.r.p.w.i.WorkspaceModelUpdater - Sync started...
+2023-11-29 11:23:44,749 [  10591]   INFO - #c.j.r.p.w.i.WorkspaceModelUpdater - Workspace model validation started...
+2023-11-29 11:23:44,750 [  10592]   INFO - #c.j.r.p.w.i.WorkspaceModelUpdater - Workspace model validation finished
+2023-11-29 11:23:44,775 [  10617]   INFO - #c.i.w.i.i.EntitiesOrphanageImpl - Update orphanage. 0 modules added
+2023-11-29 11:23:44,780 [  10622]   INFO - #c.i.u.i.UnindexedFilesScanner - Started scanning for indexing of Solution1. Reason: changes in: "Module 'rider.module' (empty)"
+2023-11-29 11:23:44,781 [  10623]   INFO - #c.i.u.i.UnindexedFilesScanner - Performing delayed pushing properties tasks for Solution1 took 0ms; general responsiveness: ok; EDT responsiveness: ok
+2023-11-29 11:23:44,781 [  10623]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning of Solution1 uses 6 scanning threads
+2023-11-29 11:23:44,784 [  10626]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of jest.config.js by request of indexes: [fileIncludes->NOT_INDEXED,js.test.names->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file jest.config.js with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=179, fileInfo='jest.config.js(id=179)'}] and removers: []; 
+2023-11-29 11:23:44,785 [  10627]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of FooCls.test.ts by request of indexes: [fileIncludes->NOT_INDEXED,js.test.names->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file FooCls.test.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=182, fileInfo='FooCls.test.ts(id=182)'}] and removers: []; 
+2023-11-29 11:23:44,786 [  10628]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of FooCls.ts by request of indexes: [fileIncludes->NOT_INDEXED,js.test.names->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file FooCls.ts with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=175, fileInfo='FooCls.ts(id=175)'}] and removers: []; 
+2023-11-29 11:23:44,792 [  10634]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of AssemblyInfo.cs by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file AssemblyInfo.cs with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=481, fileInfo='AssemblyInfo.cs(id=481)'}] and removers: []; 
+2023-11-29 11:23:44,792 [  10634]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of Program.cs by request of indexes: [Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,]. Scanner has updated file Program.cs with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=180, fileInfo='Program.cs(id=180)'}] and removers: []; 
+2023-11-29 11:23:44,794 [  10636]   INFO - #c.i.u.i.IndexingReasonExplanationLogger - Scheduling indexing of babel.config.js by request of indexes: [fileIncludes->NOT_INDEXED,js.test.names->NOT_INDEXED,js.string.literal.words.index->NOT_INDEXED,js.custom.single.entry.index->NOT_INDEXED,Trigram.Index->NOT_INDEXED,IdIndex->NOT_INDEXED,filetypes->NOT_INDEXED,Stubs->NOT_INDEXED,]. Scanner has updated file babel.config.js with appliers: [SingleIndexValueApplier{indexId=filetypes, inputId=176, fileInfo='babel.config.js(id=176)'}] and removers: []; 
+2023-11-29 11:23:44,795 [  10637]   INFO - #c.i.u.i.UnindexedFilesScanner - Scanning completed for Solution1. Number of scanned files: 7; number of files for indexing: 6 took 14ms; general responsiveness: ok; EDT responsiveness: ok
+2023-11-29 11:23:44,795 [  10637]   INFO - #c.i.u.i.c.IndexUpdateRunner - Using 5 indexing  and 0 writing threads for indexing
+2023-11-29 11:23:44,846 [  10688]   INFO - #c.i.u.i.ProjectChangedFilesScanner - Retrieving changed during indexing files of Solution1 : 7 to update, calculated in 0ms
+2023-11-29 11:23:44,847 [  10689]   INFO - #c.i.u.i.UnindexedFilesIndexer - Finished for Solution1. Unindexed files update took 52ms; general responsiveness: ok; EDT responsiveness: ok
+2023-11-29 11:23:44,857 [  10699]   INFO - #c.j.r.p.w.i.WorkspaceModelUpdater - Sync finished
+2023-11-29 11:23:44,903 [  10745]   INFO - #c.j.r.r.c.RunnableProjectListener - Solution load state updated. Flushing icon cache.
+2023-11-29 11:23:44,905 [  10747]   INFO - #c.j.r.r.c.RunnableProjectListener - Cleaned up the cache of 1 icons.
+2023-11-29 11:23:45,290 [  11132]   INFO - #c.j.r.r.c.RunnableProjectListener - Runnable projects updated (1 items). Flushing icon cache.
+2023-11-29 11:23:45,291 [  11133]   INFO - #c.j.r.r.c.RunnableProjectListener - Cleaned up the cache of 1 icons.
+2023-11-29 11:23:45,295 [  11137]   INFO - #c.j.r.r.DotNetRuntime - Detected runtime for project kind RunnableProjectKind(name=Console), TFM RdTargetFrameworkId(shortName=.NETFramework, presentableName=.NETFramework,Version=v4.8, isNetCoreApp=false, isNetFramework=true), executable "/data/project/ConsoleApplication1/bin/Debug/ConsoleApplication1.exe", detect time: 0ms: Mono
+2023-11-29 11:23:45,295 [  11137]   INFO - #c.j.d.c.RunConfigurationToRuntimeCacheService - Runtime for runConfiguration `.NET Project: ConsoleApplication1`, duration 3ms: Mono
+2023-11-29 11:23:45,383 [  11225]   INFO - #c.j.r.p.SolutionLifecycleHost - Full cold solution load with caches took 3454 milliseconds.
+2023-11-29 11:23:45,392 [  11234]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Acquiring non-reached sync points
+2023-11-29 11:23:45,403 [  11245]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for sync points AsyncCommitServiceImpl: AsyncCommit forJetBrains.ReSharper.Psi.RetryingAsyncCommitClient::BlazorEventHandlersCache.b7e1a74c-2833-4521-8247-31b08cb59e69;AsyncCommit forJetBrains.ReSharper.Daemon.Impl.DaemonImpl.1078c4a4-d200-4095-b3df-308912edc34e;AsyncCommit forJetBrains.ReSharper.Psi.RetryingAsyncCommitClient::MvcControllersProvider_bd4b9aa3-5bc2-416e-b089-a2151da3b851::Commit.cf6423c1-da63-4c33-a05c-91183462519f, PsiModuleAttributesCache: PsiModuleAttributeCache::Initial Update;PsiModuleAttributesCache::QueueUpdateCaches 0;Updating caches, RazorTagHelperCache: myInvalidatePsiModulesProcessor::79dea243-e0ef-4a18-af23-7f28a97255ca, MvcControllersProvider::IsUpToDate: 746185ff-56c9-4664-bee9-62e514cea14d, AspNetHttpEndpointsProvider::IsUpToDate: 558c0158-69f7-4a95-8d23-1d97a4944c93, MinimalApisEndpointsProvider::IsUpToDate: 4901b6b9-7dcd-43de-b7d8-0337b3f327fa
+2023-11-29 11:23:45,492 [  11334]   INFO - #c.j.r.c.f.j.u.UnrealProjectModelFilesSniffer - snapshot: plugins 0, modules: 0
+2023-11-29 11:23:45,509 [  11351]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for sync points AsyncCommitServiceImpl: AsyncCommit forJetBrains.ReSharper.Psi.RetryingAsyncCommitClient::BlazorEventHandlersCache.3bfbd1e6-2fd4-4bfc-b9ba-b1972954cb60, AttributeRoutingSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApisSourcesChangesDispatcher::GrouppingEvent: Waiting, RoutingConventionSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApiImplicitDeclarationSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApiGroupsSourcesChangesDispatcher::GrouppingEvent: Waiting, AspNetHttpEndpointsProvider::IsUpToDate: 558c0158-69f7-4a95-8d23-1d97a4944c93, MinimalApisEndpointsProvider::IsUpToDate: 4901b6b9-7dcd-43de-b7d8-0337b3f327fa
+2023-11-29 11:23:45,611 [  11453]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for sync points AttributeRoutingSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApisSourcesChangesDispatcher::GrouppingEvent: Waiting, RoutingConventionSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApiGroupsSourcesChangesDispatcher::GrouppingEvent: Waiting, AspNetHttpEndpointsProvider::IsUpToDate: 558c0158-69f7-4a95-8d23-1d97a4944c93, MinimalApisEndpointsProvider::IsUpToDate: 4901b6b9-7dcd-43de-b7d8-0337b3f327fa
+2023-11-29 11:23:45,712 [  11554]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for sync points AttributeRoutingSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApisSourcesChangesDispatcher::GrouppingEvent: Waiting, RoutingConventionSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApiGroupsSourcesChangesDispatcher::GrouppingEvent: Waiting, AspNetHttpEndpointsProvider::IsUpToDate: 558c0158-69f7-4a95-8d23-1d97a4944c93, MinimalApisEndpointsProvider::IsUpToDate: 4901b6b9-7dcd-43de-b7d8-0337b3f327fa
+2023-11-29 11:23:45,814 [  11656]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for sync points AttributeRoutingSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApisSourcesChangesDispatcher::GrouppingEvent: Waiting, RoutingConventionSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApiGroupsSourcesChangesDispatcher::GrouppingEvent: Waiting, AspNetHttpEndpointsProvider::IsUpToDate: 558c0158-69f7-4a95-8d23-1d97a4944c93, MinimalApisEndpointsProvider::IsUpToDate: 4901b6b9-7dcd-43de-b7d8-0337b3f327fa
+2023-11-29 11:23:45,916 [  11758]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for sync points AttributeRoutingSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApisSourcesChangesDispatcher::GrouppingEvent: Waiting, RoutingConventionSourcesChangesDispatcher::GrouppingEvent: Waiting, MinimalApiGroupsSourcesChangesDispatcher::GrouppingEvent: Waiting, AspNetHttpEndpointsProvider::IsUpToDate: 558c0158-69f7-4a95-8d23-1d97a4944c93, MinimalApisEndpointsProvider::IsUpToDate: 4901b6b9-7dcd-43de-b7d8-0337b3f327fa
+2023-11-29 11:23:46,018 [  11860]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for sync points AsyncCommitServiceImpl: AsyncCommit forJetBrains.ReSharper.Psi.RetryingAsyncCommitClient::SourceRoutingAttributesProvider_128c5998-ab66-4830-813d-ad3cdd91aa5e::Commit.b55c8310-b924-4b32-8928-a97518427057;AsyncCommit forJetBrains.ReSharper.Psi.RetryingAsyncCommitClient::RoutingConventionsProvider_b8b1b3ab-9196-4b4e-836e-fb531648a77c::Commit.e1f0f9ae-52fe-4429-a0ba-f5c919adf5a2;AsyncCommit forJetBrains.ReSharper.Psi.RetryingAsyncCommitClient::MinimalApiDeclarationsProvider_07c925b5-8302-4bbe-b53a-433fc99ad3f6::Commit.cbb6e47f-bd53-4759-8cfc-7e4776e84481;AsyncCommit forJetBrains.ReSharper.Psi.RetryingAsyncCommitClient::MinimalApiGroupDeclarationsProvider_f2876216-13df-461e-9c62-d69c1037abfa::Commit.9a11bd8d-51fa-4fe8-b30a-a2a69b0d2a37, AspNetHttpEndpointsProvider::IsUpToDate: 558c0158-69f7-4a95-8d23-1d97a4944c93, MinimalApisEndpointsProvider::IsUpToDate: 4901b6b9-7dcd-43de-b7d8-0337b3f327fa
+2023-11-29 11:23:46,120 [  11962]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Sync points ready
+2023-11-29 11:23:46,315 [  12157]   INFO - #c.i.d.MemorySizeConfigurator - Memory size configurator skipped: Unable to determine current -Xmx. VM options file is /root/.config/idea/ide.vmoptions
+2023-11-29 11:23:46,322 [  12164]   INFO - #c.j.r.c.CrossgenAutoInstallActivity - At the moment crossgen is only supported for windows x64
+2023-11-29 11:23:46,832 [  12674]   INFO - #o.j.q.s.i.r.QodanaInspectionApplication - Used scope: Project Files
+2023-11-29 11:23:46,833 [  12675]   INFO - STDOUT - Initializing project…Inspecting with the 'qodana.starter' profile
+2023-11-29 11:23:46,851 [  12693]   INFO - #o.j.q.s.p.QodanaProfile - The 'qodana.sanity' profile is configured for sanity checks
+2023-11-29 11:23:46,896 [  12738]   INFO - #o.j.q.s.p.QodanaProfile - The 'qodana.recommended' profile is configured for promo checks
+2023-11-29 11:23:46,919 [  12761]   WARN - #o.j.q.s.s.GitReportContributor - Unable to parse the repository url, please set the environment variable QODANA_REPO_URL, should start with https://
+2023-11-29 11:23:47,347 [  13189]   INFO - #o.j.q.s.i.r.ConsoleLog - Preparing for the Project configuration stage ...
+2023-11-29 11:23:47,348 [  13190]   INFO - STDOUT - Preparing for the Project configuration stage ...
+2023-11-29 11:23:47,350 [  13192]   INFO - STDOUT - Detected 0 package.json files under the project to install dependencies
+2023-11-29 11:23:47,352 [  13194]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for Analysis Host
+2023-11-29 11:23:47,352 [  13194]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Analysis Host is ready
+2023-11-29 11:23:47,353 [  13195]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Disabling SWEA
+2023-11-29 11:23:47,460 [  13302]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - SWEA was disabled
+2023-11-29 11:23:47,460 [  13302]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for Full Startup
+2023-11-29 11:23:47,461 [  13303]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Full Startup completed
+2023-11-29 11:23:47,461 [  13303]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for Project Model
+2023-11-29 11:23:47,463 [  13305]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Wait for Project model...
+2023-11-29 11:23:47,463 [  13305]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Wait for Project model: all frontend documents are committed
+2023-11-29 11:23:47,463 [  13305]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Wait for Project model: source generators are ready
+2023-11-29 11:23:47,465 [  13307]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - WaitBackend: syncImpulse sending
+2023-11-29 11:23:47,468 [  13310]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - WaitBackend: syncImpulse completed
+2023-11-29 11:23:47,469 [  13311]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Wait for Project model: waitBackend finished
+2023-11-29 11:23:47,469 [  13311]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Wait for Project model: FileSystemTracker is ready
+2023-11-29 11:23:47,470 [  13312]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Wait for Project model: VfsWatchRootHost is ready
+2023-11-29 11:23:47,471 [  13313]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Wait for Workspace Model...
+2023-11-29 11:23:47,471 [  13313]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Wait for Workspace Model: model ready
+2023-11-29 11:23:47,472 [  13314]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Project model ready in 9 ms
+2023-11-29 11:23:47,472 [  13314]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Project Model is ready
+2023-11-29 11:23:47,472 [  13314]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Acquiring non-reached sync points
+2023-11-29 11:23:47,473 [  13315]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for sync points AsyncCommitServiceImpl: AsyncCommit forJetBrains.ReSharper.Daemon.Impl.DaemonImpl.8f02c442-c86c-43f1-b343-8687f1c08114
+2023-11-29 11:23:47,575 [  13417]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Sync points ready
+2023-11-29 11:23:47,585 [  13427]   INFO - #o.j.q.s.i.r.ConsoleLog - The Project configuration stage completed in 238ms
+2023-11-29 11:23:47,585 [  13427]   INFO - STDOUT - The Project configuration stage completed in 238ms
+2023-11-29 11:23:47,599 [  13441]   INFO - #o.j.q.s.i.r.ConsoleLog - Preparing for the Project analysis stage ...
+2023-11-29 11:23:47,600 [  13442]   INFO - STDOUT - Preparing for the Project analysis stage ...
+2023-11-29 11:23:47,614 [  13456]   INFO - #c.i.a.AnalysisScope - Scanning scope took 6 ms
+2023-11-29 11:23:47,630 [  13472]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Applying inspection config
+2023-11-29 11:23:47,631 [  13473]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for inspection config to be applied
+2023-11-29 11:23:47,742 [  13584]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Inspection config applied
+2023-11-29 11:23:47,743 [  13585]   INFO - #c.j.r.p.a.q.RiderSWEAInspections - WaitBackend: syncImpulse sending
+2023-11-29 11:23:47,744 [  13586]   INFO - #c.j.r.p.a.q.RiderSWEAInspections - WaitBackend: syncImpulse completed
+2023-11-29 11:23:47,744 [  13586]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Acquiring non-reached sync points
+2023-11-29 11:23:47,745 [  13587]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for sync points AsyncCommitServiceImpl: AsyncCommit forJetBrains.ReSharper.Daemon.Impl.DaemonImpl.341be04a-0f08-41c9-b4ee-14278810beb8
+2023-11-29 11:23:47,847 [  13689]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Sync points ready
+2023-11-29 11:23:47,848 [  13690]   INFO - #c.j.r.p.a.q.RiderSWEAInspections - Announcing analysis scope
+2023-11-29 11:23:47,871 [  13713]   INFO - #c.j.r.p.a.q.RiderSWEAInspections - Analysis scope announced (8)
+2023-11-29 11:23:47,872 [  13714]   INFO - #c.j.r.p.a.q.RiderSWEAInspections - Launching SWEA
+2023-11-29 11:23:47,873 [  13715]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Logging write locks
+2023-11-29 11:23:47,874 [  13716]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Write locks being logged
+2023-11-29 11:23:47,875 [  13717]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Re-enabling SWEA
+2023-11-29 11:23:48,102 [  13944]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Triggering Reanalyze
+2023-11-29 11:23:48,103 [  13945]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for SWEA to go down
+2023-11-29 11:23:48,104 [  13946]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Waiting for SWEA to go up
+2023-11-29 11:23:48,326 [  14168]   INFO - STDOUT - Rider Solution-Wide Analysis 7%
+2023-11-29 11:23:48,615 [  14457]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - SWEA finished
+2023-11-29 11:23:48,616 [  14458]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Disable logging write locks
+2023-11-29 11:23:48,617 [  14459]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Write locks logging disabled
+2023-11-29 11:23:48,617 [  14459]   INFO - #c.j.r.p.a.q.RiderSWEAInspections - Launching find code issues
+2023-11-29 11:23:48,625 [  14467]   INFO - STDOUT - Rider Inspect Code Finder 40%
+2023-11-29 11:23:48,626 [  14468]   INFO - STDOUT - Rider Inspect Code Finder 44%
+2023-11-29 11:23:48,627 [  14469]   INFO - #c.j.r.p.a.q.RiderSWEAInspections - Issues collected
+2023-11-29 11:23:48,636 [  14478]   INFO - #o.j.q.s.i.r.AsyncInspectionToolResultWriter - Async result writer started
+2023-11-29 11:23:48,636 [  14478]   INFO - #c.j.r.p.a.q.RiderSecurityErrorsInspection - Reporting security problems
+2023-11-29 11:23:48,649 [  14491]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - Resetting SWEA config
+2023-11-29 11:23:48,652 [  14494]   INFO - #c.j.r.p.a.q.StaticAnalysisHost - SWEA config resetted
+2023-11-29 11:23:48,809 [  14651]   INFO - #c.j.r.p.a.q.c.NetCoverageInspection - Coverage for .NET - provided 0 files
+2023-11-29 11:23:48,842 [  14684]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.htmltools.xml.util.HtmlReferenceProvider initializer requests org.intellij.images.fileTypes.ImageFileTypeManager instance
+2023-11-29 11:23:48,850 [  14692]   INFO - STDOUT - Analyzing code 50%
+2023-11-29 11:23:48,851 [  14693]   INFO - STDOUT - Analyzing code 55%
+2023-11-29 11:23:49,147 [  14989]   INFO - STDOUT - Analyzing code 60%
+2023-11-29 11:23:49,267 [  15109]   INFO - STDOUT - Analyzing code 64%
+2023-11-29 11:23:49,397 [  15239]   INFO - STDOUT - Analyzing code 69%
+2023-11-29 11:23:49,403 [  15245]   INFO - STDOUT - Analyzing code 75%
+2023-11-29 11:23:49,606 [  15448]   INFO - STDOUT - Analyzing code 80%
+2023-11-29 11:23:49,945 [  15787]   INFO - STDOUT - Analyzing code 85%
+2023-11-29 11:23:50,204 [  16046]   INFO - #o.j.q.s.i.r.ConsoleLog - The Project analysis stage completed in 2s
+2023-11-29 11:23:50,204 [  16046]   INFO - STDOUT - The Project analysis stage completed in 2s
+2023-11-29 11:23:50,218 [  16060]   INFO - #c.j.d.m.DependencyAnalysisDescriber - Running Dependency Analysis project describer
+2023-11-29 11:23:50,251 [  16093]   INFO - STDOUT - 
+2023-11-29 11:23:50,251 [  16093]   INFO - STDOUT - Qodana - Sanity summary
+2023-11-29 11:23:50,252 [  16094]   INFO - STDOUT - Analysis results: 1 problem detected
+2023-11-29 11:23:50,252 [  16094]   INFO - STDOUT - 1 suspicious problem was detected during Sanity Check. Probably there are some troubles with corresponding inspection. You may fix the problem or exclude the files containing it from the analysis
+2023-11-29 11:23:50,252 [  16094]   INFO - STDOUT - --------------------------------------------------------------------------------------------------------
+2023-11-29 11:23:50,252 [  16094]   INFO - STDOUT - File                                                                Inspection  Severity  Problems count
+2023-11-29 11:23:50,253 [  16095]   INFO - STDOUT - --------------------------------------------------------------------------------------------------------
+2023-11-29 11:23:50,253 [  16095]   INFO - STDOUT - ConsoleApplication1.csproj                Rider toolset and environment errors  Critical               1
+2023-11-29 11:23:50,253 [  16095]   INFO - STDOUT - --------------------------------------------------------------------------------------------------------
+2023-11-29 11:23:50,253 [  16095]   INFO - STDOUT - 
+2023-11-29 11:23:50,253 [  16095]   INFO - STDOUT - 
+2023-11-29 11:23:50,254 [  16096]   INFO - STDOUT - 
+2023-11-29 11:23:50,254 [  16096]   INFO - STDOUT - Qodana - Detailed summary
+2023-11-29 11:23:50,255 [  16097]   INFO - STDOUT - Analysis results: 0 problem detected
+2023-11-29 11:23:50,255 [  16097]   INFO - STDOUT - 
+2023-11-29 11:23:50,946 [  16788]   INFO - #o.j.q.s.i.r.QodanaInspectionApplication - QODANA_TOKEN environment variable is not defined
+2023-11-29 11:23:50,953 [  16795]   INFO - #o.j.q.s.i.r.QodanaInspectionApplication - sessionId: 23112911-74cb89641f6d
+2023-11-29 11:23:51,122 [  16964]   INFO - #c.j.r.p.c.SolutionHost - Sending 'close' signal...
+2023-11-29 11:23:51,123 [  16965]   INFO - #c.j.r.p.c.SolutionHost - Clearing protocol solution...
+2023-11-29 11:23:51,126 [  16968]   INFO - #c.j.r.p.ProtocolManager - Release protocolHost...
+2023-11-29 11:23:52,149 [  17991]   INFO - #c.i.w.i.i.j.s.JpsGlobalModelSynchronizerImpl - Saving global entities to files
+2023-11-29 11:23:52,283 [  18125]   INFO - #c.i.a.o.PathMacrosImpl - Saved path macros: {}
+2023-11-29 11:23:52,327 [  18169]   INFO - #c.j.r.p.c.ShellHost - Request to shutdown host process ReSharper Process 0
+2023-11-29 11:23:52,335 [  18177]   INFO - #c.i.i.s.e.u.EventLogExternalUploader - Started external process for uploading event log
+2023-11-29 11:23:52,352 [  18194]   INFO - #o.j.i.BuiltInServer - web server stopped
+2023-11-29 11:23:52,357 [  18199]   INFO - c.j.r.f.S.Server - FrontendToBackend: start terminating lifetime
+2023-11-29 11:23:52,357 [  18199]   INFO - c.j.r.f.S.Server - FrontendToBackend: termination finished
+2023-11-29 11:23:52,359 [  18201]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose started
+2023-11-29 11:23:52,369 [  18211]   INFO - #c.i.p.s.StubIndexImpl - StubIndexExtension-s were unloaded
+2023-11-29 11:23:52,370 [  18212]   INFO - #c.i.p.s.SerializationManagerImpl - Start shutting down /data/cache/idea/233/index/rep.names
+2023-11-29 11:23:52,371 [  18213]   INFO - #c.i.p.s.SerializationManagerImpl - Finished shutting down /data/cache/idea/233/index/rep.names
+2023-11-29 11:23:52,371 [  18213]   INFO - #c.i.u.i.FileBasedIndexImpl - Index dispose completed in 12ms.
+2023-11-29 11:23:52,408 [  18250]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose started
+2023-11-29 11:23:52,413 [  18255]   INFO - #c.i.o.v.n.p.PersistentFSImpl - VFS dispose completed in 4ms.
+2023-11-29 11:23:52,413 [  18255]   INFO - #c.i.o.f.i.FileTypeDetectionService - 1 auto-detected files. Detection took 18 ms
+2023-11-29 11:23:52,429 [  18271]   INFO - #c.i.p.i.b.AppStarter - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------
