@@ -1,15 +1,13 @@
 {
-  "total": 0,
+  "total": 3,
   "tools inspection": {
-    "Code Inspection": 0
+    "Code Inspection": 3
   },
-  "linter": "QDJVM",
+  "linter": "QDNET",
   "attributes": {
     "vcs": {
       "sarifIdea": {
-        "repositoryUri": "ssh://git@github.com/ivanovec/dot.git",
-        "revisionId": "a00b68a497d160dbcb861300fb0875e367d6963c",
-        "branch": "dot"
+        "revisionId": "c189a48acf9353caca9ffdfd37cb49b0cf46ba19"
       }
     },
     "repoUrl": "",

@@ -5,9 +5,9 @@
     {
       "tool": {
         "driver": {
-          "name": "QDJVM",
-          "fullName": "Qodana for JVM",
-          "version": "241.16219.78",
+          "name": "QDNET",
+          "fullName": "Qodana for .NET",
+          "version": "241.16914.127",
           "rules": [],
           "taxa": [],
           "language": "en-US",
@@ -21,17 +21,16 @@
       },
       "invocations": [
         {
-          "startTimeUtc": "2024-04-16T09:30:21.570457129Z",
-          "exitCode": 0,
+          "startTimeUtc": "2024-05-02T18:15:49.23103996Z",
+          "exitCode": 255,
+          "exitCodeDescription": "Failure condition triggered:\n- Detected 3 problems across all severities, fail threshold: 2",
           "executionSuccessful": true
         }
       ],
       "language": "en-US",
       "versionControlProvenance": [
         {
-          "repositoryUri": "ssh://git@github.com/ivanovec/dot.git",
-          "revisionId": "a00b68a497d160dbcb861300fb0875e367d6963c",
-          "branch": "dot",
+          "revisionId": "c189a48acf9353caca9ffdfd37cb49b0cf46ba19",
           "properties": {
             "repoUrl": "",
             "lastAuthorName": "Ivan Efimov",
@@ -42,8 +41,8 @@
       ],
       "results": [],
       "automationDetails": {
-        "id": "project/qodana/2024-04-16",
-        "guid": "5440d67f-309f-4824-b996-69c2cc4a3004",
+        "id": "Solution1/qodana/2024-05-02",
+        "guid": "b8862ff8-0bc7-4df0-9415-1b516588f45a",
         "properties": {
           "jobUrl": ""
         }
@@ -55,13 +54,228 @@
       "properties": {
         "qodanaFailureConditions": {
           "severityThresholds": {
-            "any": 2.0
+            "any": 2
           }
         },
+        "qodana.promo.results": [
+          {
+            "ruleId": "ArrangeNamespaceBody",
+            "kind": "fail",
+            "level": "note",
+            "message": {
+              "text": "Convert to file-scoped namespace",
+              "markdown": "Convert to file-scoped namespace"
+            },
+            "locations": [
+              {
+                "physicalLocation": {
+                  "artifactLocation": {
+                    "uri": "ConsoleApplication1/Program.cs",
+                    "uriBaseId": "SRCROOT"
+                  },
+                  "region": {
+                    "startLine": 4,
+                    "startColumn": 1,
+                    "charOffset": 45,
+                    "charLength": 1,
+                    "snippet": {
+                      "text": "{"
+                    },
+                    "sourceLanguage": "C#"
+                  },
+                  "contextRegion": {
+                    "startLine": 2,
+                    "startColumn": 1,
+                    "charOffset": 14,
+                    "charLength": 65,
+                    "snippet": {
+                      "text": "\nnamespace ConsoleApplication1\n{\n    internal class Program\n    {"
+                    },
+                    "sourceLanguage": "C#"
+                  }
+                },
+                "logicalLocations": [
+                  {
+                    "fullyQualifiedName": "ConsoleApplication1",
+                    "kind": "module"
+                  }
+                ]
+              }
+            ],
+            "partialFingerprints": {
+              "equalIndicator/v2": "16d2b8fe24d4d16c",
+              "equalIndicator/v1": "65a150a25c65947475ae3cc7c34ec78fa56f8ea9ba0a934c41f81dd878c3a310"
+            },
+            "properties": {
+              "ideaSeverity": "TYPO",
+              "qodanaSeverity": "Low"
+            }
+          },
+          {
+            "ruleId": "ClassNeverInstantiated.Global",
+            "kind": "fail",
+            "level": "note",
+            "message": {
+              "text": "Class 'Program' is never instantiated",
+              "markdown": "Class 'Program' is never instantiated"
+            },
+            "locations": [
+              {
+                "physicalLocation": {
+                  "artifactLocation": {
+                    "uri": "ConsoleApplication1/Program.cs",
+                    "uriBaseId": "SRCROOT"
+                  },
+                  "region": {
+                    "startLine": 5,
+                    "startColumn": 20,
+                    "charOffset": 66,
+                    "charLength": 7,
+                    "snippet": {
+                      "text": "Program"
+                    },
+                    "sourceLanguage": "C#"
+                  },
+                  "contextRegion": {
+                    "startLine": 3,
+                    "startColumn": 1,
+                    "charOffset": 15,
+                    "charLength": 87,
+                    "snippet": {
+                      "text": "namespace ConsoleApplication1\n{\n    internal class Program\n    {\n        private int c;"
+                    },
+                    "sourceLanguage": "C#"
+                  }
+                },
+                "logicalLocations": [
+                  {
+                    "fullyQualifiedName": "ConsoleApplication1",
+                    "kind": "module"
+                  }
+                ]
+              }
+            ],
+            "partialFingerprints": {
+              "equalIndicator/v2": "9f09426493016779",
+              "equalIndicator/v1": "08f3d6ab5486b5c5d00db621ebf7bff7cd37570d5fdc129d2c456f0501141592"
+            },
+            "properties": {
+              "ideaSeverity": "WEAK WARNING",
+              "qodanaSeverity": "Moderate"
+            }
+          },
+          {
+            "ruleId": "ConvertToConstant.Local",
+            "kind": "fail",
+            "level": "note",
+            "message": {
+              "text": "Convert into constant",
+              "markdown": "Convert into constant"
+            },
+            "locations": [
+              {
+                "physicalLocation": {
+                  "artifactLocation": {
+                    "uri": "ConsoleApplication1/Program.cs",
+                    "uriBaseId": "SRCROOT"
+                  },
+                  "region": {
+                    "startLine": 10,
+                    "startColumn": 17,
+                    "charOffset": 176,
+                    "charLength": 1,
+                    "snippet": {
+                      "text": "a"
+                    },
+                    "sourceLanguage": "C#"
+                  },
+                  "contextRegion": {
+                    "startLine": 8,
+                    "startColumn": 1,
+                    "charOffset": 103,
+                    "charLength": 140,
+                    "snippet": {
+                      "text": "        public static void Main(string[] args)\n        {\n            var a = 1;\n            Console.WriteLine(a);\n            while (true) ;"
+                    },
+                    "sourceLanguage": "C#"
+                  }
+                },
+                "logicalLocations": [
+                  {
+                    "fullyQualifiedName": "ConsoleApplication1",
+                    "kind": "module"
+                  }
+                ]
+              }
+            ],
+            "partialFingerprints": {
+              "equalIndicator/v2": "b087e62487a801e8",
+              "equalIndicator/v1": "35f85204c9537ce2ac6803ba513aee6b4d1be734b2bb91f2aac9596249247fc6"
+            },
+            "properties": {
+              "ideaSeverity": "TYPO",
+              "qodanaSeverity": "Low"
+            }
+          },
+          {
+            "ruleId": "UnusedParameter.Global",
+            "kind": "fail",
+            "level": "note",
+            "message": {
+              "text": "Parameter 'args' is never used",
+              "markdown": "Parameter 'args' is never used"
+            },
+            "locations": [
+              {
+                "physicalLocation": {
+                  "artifactLocation": {
+                    "uri": "ConsoleApplication1/Program.cs",
+                    "uriBaseId": "SRCROOT"
+                  },
+                  "region": {
+                    "startLine": 8,
+                    "startColumn": 42,
+                    "charOffset": 144,
+                    "charLength": 4,
+                    "snippet": {
+                      "text": "args"
+                    },
+                    "sourceLanguage": "C#"
+                  },
+                  "contextRegion": {
+                    "startLine": 6,
+                    "startColumn": 1,
+                    "charOffset": 74,
+                    "charLength": 108,
+                    "snippet": {
+                      "text": "    {\n        private int c;\n        public static void Main(string[] args)\n        {\n            var a = 1;"
+                    },
+                    "sourceLanguage": "C#"
+                  }
+                },
+                "logicalLocations": [
+                  {
+                    "fullyQualifiedName": "ConsoleApplication1",
+                    "kind": "module"
+                  }
+                ]
+              }
+            ],
+            "partialFingerprints": {
+              "equalIndicator/v2": "7e523818f14a04aa",
+              "equalIndicator/v1": "7b7772f36dd9e1765e75aa152e6d9a992ed59aa30b6002413b0c18ffc592979c"
+            },
+            "properties": {
+              "ideaSeverity": "WEAK WARNING",
+              "qodanaSeverity": "Moderate"
+            }
+          }
+        ],
         "configProfile": "starter",
         "deviceId": "200820300000000-0c71-ef9c-4252-7584f47bb2fd",
         "qodanaNewResultSummary": {
-          "total": 0.0
+          "high": 3,
+          "total": 3
         }
       }
     }

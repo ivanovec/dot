@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsoleApplication1
-build_property.ProjectDir = /Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/
+build_property.ProjectDir = /data/project/ConsoleApplication1/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,5 +1,5 @@
-[2024-04-16 09:30:40,488]   INFO -    org.jetbrains.analysis.Main:33 - Generating final reports...
-[2024-04-16 09:30:40,489]   INFO -               internal.message:34 - Code Inspection version: 0.10.70
-[2024-04-16 09:30:40,528]   INFO - ana.sarif.CodeInspectionReader:33 - Reading sarif without results: /data/results/qodana.sarif.json
-[2024-04-16 09:30:40,736]   WARN - na.sarif.QodanaReportConverter:111 - Directory '/data/results/coverage' does not exist
-[2024-04-16 09:30:40,751]   INFO -    org.jetbrains.analysis.Main:51 - Done
+[2024-05-02 18:16:11,906]   INFO -    org.jetbrains.analysis.Main:33 - Generating final reports...
+[2024-05-02 18:16:11,911]   INFO -               internal.message:34 - Code Inspection version: 0.10.70
+[2024-05-02 18:16:11,949]   INFO - ana.sarif.CodeInspectionReader:33 - Reading sarif without results: /data/results/qodana.sarif.json
+[2024-05-02 18:16:12,211]   WARN - na.sarif.QodanaReportConverter:111 - Directory '/data/results/coverage' does not exist
+[2024-05-02 18:16:12,220]   INFO -    org.jetbrains.analysis.Main:51 - Done

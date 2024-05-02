@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/Ivan.Efimov/.nuget/packages/": {}
+    "/data/cache/nuget": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/ConsoleApplication1.csproj",
+      "projectUniqueName": "/data/project/ConsoleApplication1/ConsoleApplication1.csproj",
       "projectName": "ConsoleApplication1",
-      "projectPath": "/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/ConsoleApplication1.csproj",
-      "packagesPath": "/Users/Ivan.Efimov/.nuget/packages/",
-      "outputPath": "/Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/obj/",
+      "projectPath": "/data/project/ConsoleApplication1/ConsoleApplication1.csproj",
+      "packagesPath": "/data/cache/nuget",
+      "outputPath": "/data/project/ConsoleApplication1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/Ivan.Efimov/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

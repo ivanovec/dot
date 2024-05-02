@@ -1,1 +1,113 @@
-{"version":"3","listProblem":[]}
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "Syntax Style",
+  "type": "Use preferred namespace body style",
+  "severity": "Low",
+  "comment": "Convert to file-scoped namespace",
+  "detailsInfo": "Use file-scoped or block-scoped namespace body [Learn more...](https://www.jetbrains.com/help/rider/ArrangeNamespaceBody.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "ConsoleApplication1/Program.cs",
+      "language": "C#",
+      "line": 4,
+      "offset": 1,
+      "length": 1,
+      "code": {
+        "startLine": 2,
+        "length": 1,
+        "offset": 31,
+        "surroundingCode": "\nnamespace ConsoleApplication1\n{\n    internal class Program\n    {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "ConsoleApplication1",
+    "inspectionName": "ArrangeNamespaceBody"
+  },
+  "hash": "65a150a25c65947475ae3cc7c34ec78fa56f8ea9ba0a934c41f81dd878c3a310"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Class is never instantiated (non-private accessibility)",
+  "severity": "Moderate",
+  "comment": "Class 'Program' is never instantiated",
+  "detailsInfo": "Non-static class is never instantiated [Learn more...](https://www.jetbrains.com/help/rider/ClassNeverInstantiated.Global.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "ConsoleApplication1/Program.cs",
+      "language": "C#",
+      "line": 5,
+      "offset": 20,
+      "length": 7,
+      "code": {
+        "startLine": 3,
+        "length": 7,
+        "offset": 51,
+        "surroundingCode": "namespace ConsoleApplication1\n{\n    internal class Program\n    {\n        private int c;"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "ConsoleApplication1",
+    "inspectionName": "ClassNeverInstantiated.Global"
+  },
+  "hash": "08f3d6ab5486b5c5d00db621ebf7bff7cd37570d5fdc129d2c456f0501141592"
+},{
+  "tool": "Code Inspection",
+  "category": "Common Practices and Code Improvements",
+  "type": "Convert local variable or field into constant (private accessibility)",
+  "severity": "Low",
+  "comment": "Convert into constant",
+  "detailsInfo": "Convert local variable or field into constant",
+  "sources": [
+    {
+      "type": "file",
+      "path": "ConsoleApplication1/Program.cs",
+      "language": "C#",
+      "line": 10,
+      "offset": 17,
+      "length": 1,
+      "code": {
+        "startLine": 8,
+        "length": 1,
+        "offset": 73,
+        "surroundingCode": "        public static void Main(string[] args)\n        {\n            var a = 1;\n            Console.WriteLine(a);\n            while (true) ;"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "ConsoleApplication1",
+    "inspectionName": "ConvertToConstant.Local"
+  },
+  "hash": "35f85204c9537ce2ac6803ba513aee6b4d1be734b2bb91f2aac9596249247fc6"
+},{
+  "tool": "Code Inspection",
+  "category": "Redundancies in Symbol Declarations",
+  "type": "Unused parameter (non-private accessibility)",
+  "severity": "Moderate",
+  "comment": "Parameter 'args' is never used",
+  "detailsInfo": "Parameter is never used",
+  "sources": [
+    {
+      "type": "file",
+      "path": "ConsoleApplication1/Program.cs",
+      "language": "C#",
+      "line": 8,
+      "offset": 42,
+      "length": 4,
+      "code": {
+        "startLine": 6,
+        "length": 4,
+        "offset": 70,
+        "surroundingCode": "    {\n        private int c;\n        public static void Main(string[] args)\n        {\n            var a = 1;"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "ConsoleApplication1",
+    "inspectionName": "UnusedParameter.Global"
+  },
+  "hash": "7b7772f36dd9e1765e75aa152e6d9a992ed59aa30b6002413b0c18ffc592979c"
+}]}

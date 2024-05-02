@@ -1,1 +1,97 @@
-{"version":"3","listProblem":[]}
+{"version":"3","listProblem":[{
+  "tool": "Code Inspection",
+  "category": "Common Practices and Code Improvements",
+  "type": "Empty control statement body",
+  "tags": [
+    "C#",
+    ".NET 8.0"
+  ],
+  "severity": "High",
+  "comment": "Empty control statement body",
+  "detailsInfo": "Empty control statement body [Learn more...](https://www.jetbrains.com/help/rider/EmptyEmbeddedStatement.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "ConsoleApplication1/Program.cs",
+      "language": "C#",
+      "line": 12,
+      "offset": 26,
+      "length": 1,
+      "code": {
+        "startLine": 10,
+        "length": 1,
+        "offset": 82,
+        "surroundingCode": "            var a = 1;\n            Console.WriteLine(a);\n            while (true) ;\n        }\n    }"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "ConsoleApplication1",
+    "inspectionName": "EmptyEmbeddedStatement"
+  },
+  "hash": "85bbe7e9e51e84a303e0d7c3e199f1f90877ab175b71cc6c696e6d37b52f2452"
+},{
+  "tool": "Code Inspection",
+  "category": "Potential Code Quality Issues",
+  "type": "Function never returns",
+  "tags": [
+    "C#",
+    ".NET 8.0"
+  ],
+  "severity": "High",
+  "comment": "Function never returns",
+  "detailsInfo": "Function does not reach its end or a 'return' statement by any of possible execution paths [Learn more...](https://www.jetbrains.com/help/rider/FunctionNeverReturns.html)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "ConsoleApplication1/Program.cs",
+      "language": "C#",
+      "line": 13,
+      "offset": 9,
+      "length": 1,
+      "code": {
+        "startLine": 11,
+        "length": 1,
+        "offset": 69,
+        "surroundingCode": "            Console.WriteLine(a);\n            while (true) ;\n        }\n    }\n}"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "ConsoleApplication1",
+    "inspectionName": "FunctionNeverReturns"
+  },
+  "hash": "184cdd51f4fcbdb4e0dc8ed720ac838c926499a01399c0aabf1d58b2d64df529"
+},{
+  "tool": "Code Inspection",
+  "category": "Compiler Warnings",
+  "type": "Field is never used",
+  "tags": [
+    "C#",
+    ".NET 8.0"
+  ],
+  "severity": "High",
+  "comment": "Field 'c' is never used",
+  "detailsInfo": "Field is never used (compiler warning)",
+  "sources": [
+    {
+      "type": "file",
+      "path": "ConsoleApplication1/Program.cs",
+      "language": "C#",
+      "line": 7,
+      "offset": 21,
+      "length": 1,
+      "code": {
+        "startLine": 5,
+        "length": 1,
+        "offset": 53,
+        "surroundingCode": "    internal class Program\n    {\n        private int c;\n        public static void Main(string[] args)\n        {"
+      }
+    }
+  ],
+  "attributes": {
+    "module": "ConsoleApplication1",
+    "inspectionName": "UnusedField.Compiler"
+  },
+  "hash": "744fe1518673fab2a5bb42480d4d668a78c8e1b0c73fc6473352c4a288358111"
+}]}
