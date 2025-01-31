@@ -12,7 +12,6 @@ pool:
 steps:
 - task: QodanaScan@2024
   inputs:
-    args: '--ide,QDNET'
     uploadResult: true
   env:
     QODANA_TOKEN: $(QODANA_TOKEN)
