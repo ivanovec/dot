@@ -13,5 +13,6 @@ steps:
 - task: QodanaScan@2024
   inputs:
     uploadResult: true
+    args: --ide,QDNET
   env:
     QODANA_TOKEN: $(QODANA_TOKEN)
