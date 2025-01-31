@@ -15,3 +15,5 @@ steps:
     args: '--ide,QDNET'
   env:
     QODANA_TOKEN: $(QODANA_TOKEN)
+    AGENT_USE_NODE10: true
+
