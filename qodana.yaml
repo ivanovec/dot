@@ -7,9 +7,19 @@ version: "1.0"
 #Specify inspection profile for code analysis
 profile:
   name: qodana.starter
+  
+bootstrap: dotnet restore
+
 dotnet: 
   solution: Solution2.sln
 ide: QDNET
+enablePackageSearch: true
+raiseLicenseProblems: true
+
+licenseRules:
+  - keys:
+      - "PROPRIETARY-LICENSE"
+    allowed: ["MS-PL"]
 #Enable inspections
 #include:
 #  - name: <SomeEnabledInspectionId>
