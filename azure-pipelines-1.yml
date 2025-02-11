@@ -1,0 +1,29 @@
+# ASP.NET
+# Build and test ASP.NET projects.
+# Add steps that publish symbols, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
+
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+- task: Cache@2  # Not required, but Qodana will open projects with cache faster.
+  inputs:
+    key: '"$(Build.Repository.Name)" | "$(Build.SourceBranchName)" | "$(Build.SourceVersion)"'
+    path: '$(Agent.TempDirectory)/qodana/cache'
+    restoreKeys: |
+      "$(Build.Repository.Name)" | "$(Build.SourceBranchName)"
+      "$(Build.Repository.Name)"
+     
+- task: QodanaScan@2024.3
+  env:
+    QODANA_TOKEN: $(QODANA_TOKEN)
+    QODANA_ENDPOINT: 'https://qodana.cloud'
