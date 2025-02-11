@@ -8,8 +8,6 @@ version: "1.0"
 profile:
   name: qodana.starter
   
-bootstrap: dotnet restore
-
 dotnet: 
   solution: Solution2.sln
 ide: QDNET
