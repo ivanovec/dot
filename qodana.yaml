@@ -8,7 +8,7 @@ version: "1.0"
 profile:
   name: qodana.starter
   
-bootstrap: dotnet restore
+bootstrap: dotnet restore Solution2.sln
 
 dotnet: 
   solution: Solution2.sln
