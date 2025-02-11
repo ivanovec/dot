@@ -7,7 +7,9 @@ version: "1.0"
 #Specify inspection profile for code analysis
 profile:
   name: qodana.starter
-
+dotnet: 
+  solution: Solution2.sln
+ide: QDNET
 #Enable inspections
 #include:
 #  - name: <SomeEnabledInspectionId>
@@ -29,4 +31,4 @@ profile:
 #  - id: <plugin.id> #(plugin id can be found at https://plugins.jetbrains.com)
 
 #Specify Qodana linter for analysis
-linter: jetbrains/qodana-dotnet:2024.3
+#linter: jetbrains/qodana-dotnet:2024.3
