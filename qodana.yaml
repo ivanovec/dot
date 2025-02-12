@@ -41,4 +41,4 @@ licenseRules:
 #  - id: <plugin.id> #(plugin id can be found at https://plugins.jetbrains.com)
 
 #Specify Qodana linter for analysis
-#linter: jetbrains/qodana-dotnet:2024.3
+linter: jetbrains/qodana-dotnet:2024.3
