@@ -13,6 +13,7 @@ bootstrap: dotnet restore Solution2.sln
 dotnet: 
   solution: Solution2.sln
 ide: QDNET
+linter: jetbrains/qodana-jvm-android:2024.3.4
 enablePackageSearch: true
 raiseLicenseProblems: true
 
@@ -41,4 +42,4 @@ licenseRules:
 #  - id: <plugin.id> #(plugin id can be found at https://plugins.jetbrains.com)
 
 #Specify Qodana linter for analysis
-linter: jetbrains/qodana-dotnet:2024.3
+#linter: jetbrains/qodana-dotnet:2024.3
