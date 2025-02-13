@@ -21,3 +21,5 @@ steps:
 - task: QodanaScan@2024
   env:
     QODANA_TOKEN: $(QODANA_TOKEN)
+  inputs:
+    uploadResults: true
