@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.App1", "Console.App1\Console.App1.csproj", "{47781D95-BF49-475C-B7A6-ED7A19E80330}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js-simple-project", "js-simple-project", "{5687579C-867D-432B-B0E9-677DBE5ECA06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "angular.js", "angular.js", "{70A12FAA-CBD0-43B9-B4C0-ECD0EED53A29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

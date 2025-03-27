@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Ivan.Efimov/RiderProjects/dot/Console.App1/Console.App1.csproj": {}
+    "/Users/Ivan.Efimov/RiderProjects/dot/Solution.Dot/Console.App1/Console.App1.csproj": {}
   },
   "projects": {
-    "/Users/Ivan.Efimov/RiderProjects/dot/Console.App1/Console.App1.csproj": {
+    "/Users/Ivan.Efimov/RiderProjects/dot/Solution.Dot/Console.App1/Console.App1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Ivan.Efimov/RiderProjects/dot/Console.App1/Console.App1.csproj",
+        "projectUniqueName": "/Users/Ivan.Efimov/RiderProjects/dot/Solution.Dot/Console.App1/Console.App1.csproj",
         "projectName": "Console.App1",
-        "projectPath": "/Users/Ivan.Efimov/RiderProjects/dot/Console.App1/Console.App1.csproj",
+        "projectPath": "/Users/Ivan.Efimov/RiderProjects/dot/Solution.Dot/Console.App1/Console.App1.csproj",
         "packagesPath": "/Users/Ivan.Efimov/.nuget/packages/",
-        "outputPath": "/Users/Ivan.Efimov/RiderProjects/dot/Console.App1/obj/",
+        "outputPath": "/Users/Ivan.Efimov/RiderProjects/dot/Solution.Dot/Console.App1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Ivan.Efimov/.nuget/NuGet/NuGet.Config"
