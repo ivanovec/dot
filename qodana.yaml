@@ -8,7 +8,7 @@ version: "1.0"
 profile:
   name: qodana.starter
   
-bootstrap: dotnet restore Solution2.sln; dotnet build Solution2.sln
+bootstrap: dotnet restore Solution2.sln
 
 linter: jetbrains/qodana-dotnet:latest
 
