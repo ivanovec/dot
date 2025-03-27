@@ -3,17 +3,13 @@
 #             https://www.jetbrains.com/help/qodana/qodana-yaml.html            #
 #-------------------------------------------------------------------------------#
 version: "1.0"
-
-#Specify inspection profile for code analysis
-profile:
-  name: qodana.starter
   
-bootstrap: dotnet restore Solution2.sln
+bootstrap: dotnet restore Solution.Dot.sln
 
 linter: jetbrains/qodana-dotnet:latest
 
 dotnet: 
-  solution: Solution2.sln
+  solution: Solution.Dot.sln
 #enablePackageSearch: true
 #raiseLicenseProblems: true
 
