@@ -13,11 +13,14 @@ steps:
 - task: Cache@2  # Not required, but Qodana will open projects with cache faster.
   inputs:
 # Change the version below anytime the task version for Qodana is changed
-    key: '"2024" | "$(Build.Repository.Name)" | "$(Build.SourceBranchName)" | "$(Build.SourceVersion)"'
+    key: '"$(Build.Repository.Name)" | "$(Build.SourceBranchName)" | "$(Build.SourceVersion)"'
     path: '$(Agent.TempDirectory)/qodana/cache'
     restoreKeys: |
       "$(Build.Repository.Name)" | "$(Build.SourceBranchName)"
       "$(Build.Repository.Name)"
 - task: QodanaScan@2024
+  inputs:
+    uploadResult: true
+    args: --config,qodana.yaml
   env:
     QODANA_TOKEN: $(QODANA_TOKEN)
