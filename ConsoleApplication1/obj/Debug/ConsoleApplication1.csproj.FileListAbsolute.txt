@@ -6,3 +6,5 @@
 /Users/Ivan.Efimov/RiderProjects/Solution1/ConsoleApplication1/obj/Debug/ConsoleApplication1.pdb
 /data/project/ConsoleApplication1/obj/Debug/ConsoleApplication1.exe
 /data/project/ConsoleApplication1/obj/Debug/ConsoleApplication1.pdb
+/Users/Ivan.Efimov/RiderProjects/dot/ConsoleApplication1/obj/Debug/ConsoleApplication1.exe
+/Users/Ivan.Efimov/RiderProjects/dot/ConsoleApplication1/obj/Debug/ConsoleApplication1.pdb
