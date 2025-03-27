@@ -1,0 +1,221 @@
+#-------------------------------------------------------------------------------#
+#               Qodana analysis is configured by qodana.yaml file               #
+#             https://www.jetbrains.com/help/qodana/qodana-yaml.html            #
+#-------------------------------------------------------------------------------#
+version: "1.0"
+
+#Specify inspection profile for code analysis
+profile:
+  name: qodana.starter
+  
+bootstrap: dotnet restore Solution2.sln
+
+linter: jetbrains/qodana-dotnet:latest
+
+dotnet: 
+  solution: Solution2.sln
+#enablePackageSearch: true
+#raiseLicenseProblems: true
+
+#licenseRules:
+#  - keys:
+#      - "PROPRIETARY-LICENSE"
+#    allowed: ["MS-PL"]
+#Enable inspections
+#include:
+#  - name: <SomeEnabledInspectionId>
+
+#Disable inspections
+#exclude:
+#  - name: <SomeDisabledInspectionId>
+#    paths:
+#      - <path/where/not/run/inspection>
+
+#The following options are only applied in CI/CD environment
+#These options are ignored during local run
+
+#Execute shell command before Qodana execution
+#bootstrap: sh ./prepare-qodana.sh
+
+#Install IDE plugins before Qodana execution
+#plugins:
+#  - id: <plugin.id> #(plugin id can be found at https://plugins.jetbrains.com)
+
+#Specify Qodana linter for analysis
+#linter: jetbrains/qodana-dotnet:2024.3
+#include:
+#  - name: RouteTemplates.ParameterConstraintCanBeSpecified
+#  - name: ConvertToConstant.Global
+#  - name: ConvertToConstant.Local
+#  - name: CanSimplifyDictionaryTryGetValueWithGetValueOrDefault
+#  - name: CanSimplifyDictionaryLookupWithTryAdd
+#  - name: FieldCanBeMadeReadOnly.Global
+#  - name: FieldCanBeMadeReadOnly.Local
+#  - name: TooWideLocalVariableScope
+#  - name: MemberCanBePrivate.Global
+#  - name: MemberCanBeProtected.Global
+#  - name: MemberCanBeMadeStatic.Global
+#  - name: MemberCanBeMadeStatic.Local
+#  - name: MethodHasAsyncOverload
+#  - name: SuggestBaseTypeForParameter
+#  - name: SuggestBaseTypeForParameterInConstructor
+#  - name: ParameterTypeCanBeEnumerable.Global
+#  - name: ParameterTypeCanBeEnumerable.Local
+#  - name: ReplaceAsyncWithTaskReturn
+#  - name: ReturnTypeCanBeEnumerable.Global
+#  - name: SimplifyConditionalTernaryExpression
+#  - name: SimplifyLinqExpressionUseAll
+#  - name: SpecifyStringComparison
+#  - name: EntityFramework.ModelValidation.CircularDependency
+#  - name: CssInvalidHtmlTagReference
+#  - name: JsonStandardCompliance
+#  - name: ConvertIfStatementToReturnStatement
+#  - name: ConvertIfStatementToConditionalTernaryExpression
+#  - name: ConvertIfStatementToNullCoalescingExpression
+#  - name: ConvertIfStatementToNullCoalescingAssignment
+#  - name: UseNegatedPatternMatching
+#  - name: UsePatternMatching
+#  - name: ConvertIfStatementToSwitchStatement
+#  - name: ConvertConstructorToMemberInitializers
+#  - name: UseAwaitUsing
+#  - name: ConvertToLambdaExpression
+#  - name: ConvertClosureToMethodGroup
+#  - name: ForCanBeConvertedToForeach
+#  - name: ForeachCanBeConvertedToQueryUsingAnotherGetEnumerator
+#  - name: InlineOutVariableDeclaration
+#  - name: InlineTemporaryVariable
+#  - name: IntroduceOptionalParameters.Global
+#  - name: InvertIf
+#  - name: UseVerbatimString
+#  - name: LoopCanBeConvertedToQuery
+#  - name: MergeIntoNegatedPattern
+#  - name: MergeIntoPattern
+#  - name: MergeIntoLogicalPattern
+#  - name: MergeSequentialChecks
+#  - name: ForeachCanBePartlyConvertedToQueryUsingAnotherGetEnumerator
+#  - name: ReplaceSubstringWithRangeIndexer
+#  - name: ConvertSwitchStatementToSwitchExpression
+#  - name: ReplaceAutoPropertyWithComputedProperty
+#  - name: ConvertConditionalTernaryExpressionToSwitchExpression
+#  - name: UseCollectionExpression
+#  - name: ConvertToCompoundAssignment
+#  - name: ConvertToNullCoalescingCompoundAssignment
+#  - name: UseObjectOrCollectionInitializer
+#  - name: UseRawString
+#  - name: UseStringInterpolation
+#  - name: ClassNeverInstantiated.Global
+#  - name: SimilarAnonymousTypeNearby
+#  - name: SwitchStatementMissingSomeEnumCasesNoDefault
+#  - name: SwitchStatementHandlesSomeKnownEnumValuesWithDefault
+#  - name: UseCollectionCountProperty
+#  - name: CssMissingComma
+#  - name: CssNoGenericFontName
+#  - name: RedundantIfElseBlock
+#  - name: RedundantToStringCallForValueType
+#  - name: RedundantDiscardDesignation
+#  - name: RedundantEmptyObjectCreationArgumentList
+#  - name: RedundantExplicitParamsArrayCreation
+#  - name: RedundantLambdaSignatureParentheses
+#  - name: RedundantStringInterpolation
+#  - name: RedundantUsingDirective
+#  - name: RedundantVerbatimPrefix
+#  - name: RedundantVerbatimStringPrefix
+#  - name: ClassWithVirtualMembersNeverInherited.Global
+#  - name: UnusedMethodReturnValue.Global
+#  - name: UnusedType.Global
+#  - name: UnusedMemberInSuper.Global
+#  - name: UnusedMember.Global
+#  - name: UnusedParameter.Global
+#  - name: VirtualMemberNeverOverridden.Global
+#  - name: CA1861
+#  - name: CA1860
+#  - name: CA1869
+#  - name: CA1068
+#  - name: SYSLIB1045
+#  - name: CA1816
+#  - name: CA1806
+#  - name: MA0042
+#  - name: CA2208
+#  - name: MA0053
+#  - name: CA1018
+#  - name: CA1822
+#  - name: CA2253
+#  - name: CA2211
+#  - name: VSTHRD104
+#  - name: MA0031
+#  - name: MA0089
+#  - name: CA1846
+#  - name: CA1850
+#  - name: CA1854
+#  - name: CA1041
+#  - name: MA0052
+#  - name: MA0001
+#  - name: ASP0015
+#  - name: CA1868
+#  - name: CA1510
+#  - name: CA1847
+#  - name: CA1866
+#  - name: CA1865
+#  - name: CA1859
+#  - name: MA0020
+#  - name: CA1862
+#  - name: MA0110
+#  - name: CA2012
+#  - name: ArrangeModifiersOrder
+#  - name: ArrangeRedundantParentheses
+#  - name: BuiltInTypeReferenceStyle
+#  - name: BuiltInTypeReferenceStyleForMemberAccess
+#  - name: ArrangeTypeMemberModifiers
+#  - name: ArrangeTypeModifiers
+#  - name: SuggestVarOrType_BuiltInTypes
+#  - name: SuggestVarOrType_SimpleTypes
+#  - name: ArrangeAccessorOwnerBody
+#  - name: SuggestDiscardDeclarationVarStyle
+#  - name: ArrangeTrailingCommaInMultilineLists
+#  - name: ArrangeObjectCreationWhenTypeEvident
+#  - name: ArrangeDefaultValueWhenTypeNotEvident
+#  - name: MA0029
+#exclude:
+#  - name: ConvertToUsingDeclaration
+#  - name: UnusedAutoPropertyAccessor.Global
+#  - name: AutoPropertyCanBeMadeGetOnly.Global
+#  - name: AutoPropertyCanBeMadeGetOnly.Local
+#  - name: PropertyCanBeMadeInitOnly.Global
+#  - name: AsyncVoidLambda
+#  - name: Html.PathError
+#  - name: ConvertToPrimaryConstructor
+#  - name: VSTHRD200
+#    paths:
+#      - src/Mx.Web/Areas/Identity/Pages/Account
+#  - name: All
+#    paths:
+#      - tests/**/*.xsd
+#      - src/Mx.Model
+#      - src/Mx.Web/Mx.Web.xml
+#      - src/Mx.Web/wwwroot/lib
+#      - src/Mx.Web/wwwroot/css/swagger-ui
+#      - src/Mx.Web/wwwroot/templates
+#      - src/Mx.Web/Features/Reports/ReportsControllerSTJBase.cs
+#      - src/Mx.Web/Features/Shared/_LayoutScriptsCommon.cshtml
+#      - src/Mx.Web/wwwroot/js/telerikReportViewer-*.js
+#      - src/Mx.Web/Nlog.xsd
+#      - src/Mx.DataLoad.Worker.Service/NLog.xsd
+#  - name: ArrangeNamespaceBody
+#  - name: MA0002
+#  - name: MA0003
+#  - name: MA0004
+#  - name: MA0006
+#  - name: MA0007
+#  - name: MA0011
+#  - name: MA0015
+#  - name: MA0016
+#  - name: MA0038
+#  - name: MA0041
+#  - name: MA0048
+#  - name: MA0051
+#  - name: MA0076
+#  - name: MA0154
+#  - name: CA2254
+#  - name: EntityFramework.ModelValidation.UnlimitedStringLength
+#    paths:
+#      - test/Mx.Core.Tests/Data/TestDbContext.cs
