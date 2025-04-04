@@ -8,10 +8,7 @@ version: "1.0"
 profile:
   name: qodana.starter
   
-bootstrap: dotnet restore Solution2.sln
-
-linter: jetbrains/qodana-dotnet:latest
-raiseLicenseProblems: true
+linter: jetbrains/qodana-js:latest
 
 dotnet: 
   solution: Solution2.sln
