@@ -19,3 +19,17 @@
 /Users/Ivan.Efimov/RiderProjects/dot/Console.App1/bin/Debug/net9.0/RestSharp.xml
 /Users/Ivan.Efimov/RiderProjects/dot/Console.App1/obj/Debug/net9.0/Console.App1.csproj.AssemblyReference.cache
 /Users/Ivan.Efimov/RiderProjects/dot/Console.App1/obj/Debug/net9.0/Console..B6D19E6C.Up2Date
+/data/project/Console.App1/bin/Debug/net9.0/Console.App1
+/data/project/Console.App1/bin/Debug/net9.0/Console.App1.deps.json
+/data/project/Console.App1/bin/Debug/net9.0/Console.App1.runtimeconfig.json
+/data/project/Console.App1/bin/Debug/net9.0/Console.App1.dll
+/data/project/Console.App1/bin/Debug/net9.0/Console.App1.pdb
+/data/project/Console.App1/obj/Debug/net9.0/Console.App1.GeneratedMSBuildEditorConfig.editorconfig
+/data/project/Console.App1/obj/Debug/net9.0/Console.App1.AssemblyInfoInputs.cache
+/data/project/Console.App1/obj/Debug/net9.0/Console.App1.AssemblyInfo.cs
+/data/project/Console.App1/obj/Debug/net9.0/Console.App1.csproj.CoreCompileInputs.cache
+/data/project/Console.App1/obj/Debug/net9.0/Console.App1.dll
+/data/project/Console.App1/obj/Debug/net9.0/refint/Console.App1.dll
+/data/project/Console.App1/obj/Debug/net9.0/Console.App1.pdb
+/data/project/Console.App1/obj/Debug/net9.0/Console.App1.genruntimeconfig.cache
+/data/project/Console.App1/obj/Debug/net9.0/ref/Console.App1.dll
